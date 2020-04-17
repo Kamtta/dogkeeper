@@ -1,13 +1,16 @@
 .login-content{
     width: 400px;
     height: 300px;
-    margin-top: 150px;
-    margin-left: 1050px;
-    display: flex;
+    /*margin-top: 150px;*/
+    /*margin-left: 500px;*/
     border: 1px solid green;
     border-radius: 10px;
     padding: 20px;
     flex-direction: column;
+    z-index: 3;
+    position: absolute;
+    left: 450px;
+    top: 150px;
 }
 .shop-title{
     color: #1c7430;
@@ -127,7 +130,12 @@
 }
 /*注册页面样式*/
 .body-style{
-    background: url("../img/loginImg.jpg") no-repeat right bottom;
+    background-image: url("../img/loginImgpast.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #CCCCCC;
 }
 .register-stytle{
     width: 500px;

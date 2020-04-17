@@ -10,8 +10,9 @@
     <script type="text/javascript" language="JavaScript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
-<body  onload="document.getElementById('telephone').focus();getCookies();" style="background: url('img/loginImg.jpg') no-repeat left center;">
-<img src="img/logo.jpg" alt="logo" style="width: 100px;height: 100px;position: fixed;top: 0;right: 0;border-radius: 50%;box-shadow: 2px 4px 4px;">
+<body  onload="document.getElementById('telephone').focus();getCookies();" class="body-style">
+<img src="img/logopast.jpg" alt="logo" style="width: 100px;height: 100px;position: fixed;top: 0;right: 0;border-radius: 50%;box-shadow: 2px 4px 4px;z-index: 4;">
+<div id="op"></div>
 <div class="login-content">
     <div class="shop-title">
         <h2>Login In</h2>
@@ -40,9 +41,9 @@
                 </label>
             </div>
             <div class="btn-style" >
-                <button type="submit" class="btn btn-outline-success" onclick="checkInCorrect()">登录</button>
+                <button type="submit" class="btn btn-outline-success"  onclick="checkInCorrect()">登录</button>
                 &nbsp&nbsp&nbsp&nbsp&nbsp
-                <button class="btn btn-outline-info" onclick="window.open('register.jsp')">注册</button>
+                <button type="button" class="btn btn-outline-info" onclick="window.open('register.jsp')">注册</button>
                 <%--<script></script>--%>
             </div>
         </form>

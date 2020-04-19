@@ -5,14 +5,15 @@ import com.tjcu.bean.Page;
 import com.tjcu.bean.User;
 import com.tjcu.dao.UserDao;
 import com.tjcu.daoimpl.UserDaoImpl;
+import com.tjcu.utils.DispatcherServiceUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.lang.reflect.Method;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.List;
@@ -24,16 +25,7 @@ public class UserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        从*.user中获取相应的方法名，从而调用相关的方法
         String uri = req.getRequestURI();
-        String path = null;
-        if(uri.lastIndexOf("/") > -1 && uri.indexOf(".") >-1){
-            path = uri.substring(uri.lastIndexOf("/")+1,uri.indexOf("."));
-        }
-        try {
-            Method method = this.getClass().getMethod(path, HttpServletRequest.class, HttpServletResponse.class);
-            method.invoke(this,req,resp);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        DispatcherServiceUtils.serviceDispat(uri,this,req,resp);
     }
 
     @Override
@@ -55,21 +47,6 @@ public class UserServlet extends HttpServlet {
 //        使用json进行传输数据
         ObjectMapper objectMapper = new ObjectMapper();
         String json = objectMapper.writeValueAsString(page);
-        resp.getWriter().write(json);
-    }
-    public void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String uname = req.getParameter("uname");
-        int i = userDao.deleteAdmin(uname);
-        if(i == 1){
-            req.getRequestDispatcher("user.jsp").forward(req,resp);
-        }
-    }
-    public void select(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String uname = req.getParameter("uname");
-        List<User> list = userDao.selectByUname(uname,1);
-        User user = list.get(0);
-        ObjectMapper objectMapper = new ObjectMapper();
-        String json = objectMapper.writeValueAsString(user);
         resp.getWriter().write(json);
     }
     public void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException, ParseException {
@@ -105,6 +82,8 @@ public class UserServlet extends HttpServlet {
             req.getRequestDispatcher("index.jsp").forward(req,resp);
         }else {
             if(user.getUpwd().equals(password)){
+                HttpSession session = req.getSession();
+                session.setAttribute("user",user);
                 resp.sendRedirect("firstpage.jsp");
             }else{
                 req.getRequestDispatcher("index.jsp").forward(req,resp);

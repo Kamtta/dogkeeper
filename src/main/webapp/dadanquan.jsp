@@ -27,8 +27,8 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：大丹犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：地中海&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-寿命：6-8年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<p>姓名：大丹犬&nbsp原产地：地中海&nbsp
+寿命：6-8年&nbsp <br><br>&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 &nbsp&nbsp&nbsp&nbsp价格：2000-8000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：狩猎犬<br><br>
 &nbsp&nbsp&nbsp&nbsp掉毛：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：较低频&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：较干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 训练：偏高等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：适中

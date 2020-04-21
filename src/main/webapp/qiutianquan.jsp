@@ -28,7 +28,7 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：秋田犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：日本秋田&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<p>姓名：秋田犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：日本秋田&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 寿命：10-12年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 &nbsp&nbsp&nbsp&nbsp价格：2000-8000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：狩猎犬<br><br>
 &nbsp&nbsp&nbsp&nbsp掉毛：易掉毛&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：较低频&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：较干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp

@@ -22,51 +22,51 @@
   </ul>
   </div>
    <h1><img src="img/dog/狗狗疾病救治.jpg"  width="20%">
-  <p>&nbsp&nbsp狗狗疾病及时救治的重要性：</p>
- <span>
-&nbsp&nbsp狗狗的寿命大多为10年左右，我们应细致的观察狗狗的每个举动、身体的每个部位。因为狗狗对疾病、疼痛的忍耐力比人要大的多，
+  <p>狗狗疾病及时救治的重要性：</p>
+ <span style="font-size:20px;font-family:SimSun;line-height: 2em">
+狗狗的寿命大多为10年左右，我们应细致的观察狗狗的每个举动、身体的每个部位。因为狗狗对疾病、疼痛的忍耐力比人要大的多，
 因此，如果你发现爱犬有明显的异常反应，证明他们需要及时救治，也许就是几分钟的耽搁就失去了自己的爱犬。
 
 </span></h1>
 
-<h2>
-  <p>&nbsp&nbsp常见的几种症状：</p>
+<h2 style="font-size:20px;font-family:SimSun;line-height: 2em">
+  <p>常见的几种症状：</p>
   <span>
   <img src="img/dog/腹泻2.jpg"  width="10%">
- <a href="fuxie.jsp">&nbsp&nbsp一、腹泻</a><br>
+ <a href="fuxie.jsp">一、腹泻</a><br>
  
 <img src="img/dog/狗狗疾病1.jpg"  width="10%">
- <a href="outu.jsp">&nbsp&nbsp二、呕吐</a><br>
+ <a href="outu.jsp">二、呕吐</a><br>
 
 <img src="img/dog/狗狗疾病2.jpg"  width="10%">
-<a href="ganmao.jsp">&nbsp&nbsp三、感冒</a><br>
+<a href="ganmao.jsp">三、感冒</a><br>
 
 
 <img src="img/dog/狗狗疾病3.jpg"  width="10%"><br>
-<a href="kesou.jsp">&nbsp&nbsp四、咳嗽</a><br><br>
+<a href="kesou.jsp">四、咳嗽</a><br><br>
 
 <img src="img/dog/狗狗疾病4.jpg"  width="10%">
-<a href="erman.jsp">&nbsp&nbsp五、耳螨</a><br>
+<a href="erman.jsp">五、耳螨</a><br>
 
 <img src="img/dog/狗狗疾病5.jpg"  width="10%">
-<a href="pifubing.jsp">&nbsp&nbsp六、皮肤病</a><br>
+<a href="pifubing.jsp">六、皮肤病</a><br>
 
 <img src="img/dog/狗狗疾病6.jpg"  width="10%">
-<a href="weichangyan.jsp">&nbsp&nbsp七、胃肠炎</a><br>
+<a href="weichangyan.jsp">七、胃肠炎</a><br>
 
 <img src="img/dog/狗狗疾病7.jpg"  width="10%">
-<a href="changbianmi.jsp">&nbsp&nbsp八、肠便秘</a><br><br><br><br>
+<a href="changbianmi.jsp">八、肠便秘</a><br><br><br><br>
 </span>
 </h2>
 <h3>
- <p>&nbsp&nbsp其他疾病：</p>
+ <p>其他疾病：</p>
  <img src="img/dog/狗狗晕车.jpg"  width="16%">
  <span>
-<a href="yunche.jsp">&nbsp&nbsp一、狗狗晕车怎么办？</a><br><br>
+<a href="yunche.jsp">一、狗狗晕车怎么办？</a><br><br>
 <img src="img/dog/厌食.jpg"  width="16%">
-<a href="yanshi.jsp">&nbsp&nbsp二、狗狗厌食怎么办？</a><br><br>
+<a href="yanshi.jsp">二、狗狗厌食怎么办？</a><br><br>
 <img src="img/dog/中暑.jpg"  width="16%">
-<a href="zhongshu.jsp">&nbsp&nbsp三、狗狗中暑后怎么办？</a><br>
+<a href="zhongshu.jsp">三、狗狗中暑后怎么办？</a><br>
 
  </span></h3>
 </body>

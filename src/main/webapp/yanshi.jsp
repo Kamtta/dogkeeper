@@ -42,8 +42,8 @@
 <img src="img/dog/食物单一.jpg" width="8%">
 6、食物单一<br>
 狗狗长期吃同一样的食物，容易出现厌倦，可以选择给狗狗喂食一些适口性的食物。狗狗平时除了喂食狗粮，平时还可以喂食一些蔬果，营养更全面。<br><br>
- <p>&nbsp&nbsp厌食视频讲解</p>
-&nbsp&nbsp&nbsp&nbsp<iframe height=300 width=400 src='https://player.youku.com/embed/XNDEwNTY0NDU4NA==' frameborder=0 'allowfullscreen'></iframe>
+ <p>厌食视频讲解</p>
+<iframe height=300 width=400 src='https://player.youku.com/embed/XNDEwNTY0NDU4NA==' frameborder=0 'allowfullscreen'></iframe>
 </h3>
 </span>
 </body>

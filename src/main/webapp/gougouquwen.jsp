@@ -9,7 +9,7 @@
  <body background="img/dogintroduction/背景图.jpg">
  
   <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -21,40 +21,39 @@
    <li><a href="hudongshequ.jsp">互动社区</a></li>
   </ul>
   </div>
-   <h1><img src="img/funny/狗狗趣闻1.jpg"  width="18%">
-   <p><a href="agenting.jsp">极度热爱狗狗的国家：阿根廷</a></p>
- <span>
-&nbsp&nbsp一、狗的地位比人高<br>
-&nbsp&nbsp二、大笔开支不含糊<br>
-&nbsp&nbsp三、爱犬名字费心起<br>
+   <h1>
+	   <img src="img/funny/狗狗趣闻9.jpg"  width="10%">
+	   <p><a href="yiqing.jsp">疫情之下，如何给狗狗做好防护？</a></p>
+	   <span>这场突如其来的新冠病毒的瘟疫，让全国人民都自行减少外出，带上了口罩，纷纷加强了自我防护。与此同时，我们不应该忘记家中还有一个特殊的朋友：狗狗。<br>
 </span>
 
+<br>
 <img src="img/funny/狗狗趣闻2.jpg"  width="13%">
 <p><a href="taiguohuangguan.jsp">太土豪了！泰国男子花费一亿元给狗狗做皇冠</a></p>
-<span>&nbsp&nbsp许多狗主都非常疼爱自己的狗狗，也愿意花一些费用与心思，帮爱犬选配件。但是亲，您见过真正的“狗狗土豪”吗?
+<span>许多狗主都非常疼爱自己的狗狗，也愿意花一些费用与心思，帮爱犬选配件。但是亲，您见过真正的“狗狗土豪”吗?
 他居然给自己的狗狗花费上亿元，来打造了一个狗狗皇冠!<br><br>
 </span>
 
 <img src="img/funny/狗狗趣闻3.jpg"  width="16%">
 <p><a href="lvai.jsp">9岁牧羊犬“马克斯”闻出主人乳癌味道</a></p>
-<span>&nbsp&nbsp大家都知道，狗狗的嗅觉非常灵敏。据科学家研究，狗的嗅黏膜内大约有2亿多个嗅细胞，约为人类的40倍，其表面有许多皱褶，面积约为人类的4倍，因此，狗的嗅觉十分灵敏。
+<span>大家都知道，狗狗的嗅觉非常灵敏。据科学家研究，狗的嗅黏膜内大约有2亿多个嗅细胞，约为人类的40倍，其表面有许多皱褶，面积约为人类的4倍，因此，狗的嗅觉十分灵敏。
 但是您听说过，狗狗能吻出癌症的味道，同时救了女主人的故事吗？<br><br>
 </span>
 
 <img src="img/funny/狗狗趣闻4.jpg"  width="18%">
 <p><a href="qinglvjiudian.jsp">巴西专门开办了一家狗狗情侣酒店</a></p>
-<span>&nbsp&nbsp据英国《每日电讯报》7月11日报道，巴西是仅次于美国的世界第二大养狗国家，全国共有约3200万条狗。
+<span>据英国《每日电讯报》7月11日报道，巴西是仅次于美国的世界第二大养狗国家，全国共有约3200万条狗。
 当地一对兄妹从人类的“情侣酒店(love hotel)”中获得灵感，专门开办了一家狗狗情侣酒店，为可爱的宠物狗们提供幽会的场所。<br>
 </span>
 
 <img src="img/funny/狗狗趣闻5.jpg"  width="18%">
 <p><a href="shoufen.jsp">德国牧羊犬“队长”为主人守坟六年</a></p>
-<span>&nbsp&nbsp在阿根廷中部的维拉卡洛斯帕兹镇，一只叫做“队长”的德国牧羊犬在主人去世后，独自从家里跑到墓地，守护在主人的墓前，一守就是6年。<br>
+<span>在阿根廷中部的维拉卡洛斯帕兹镇，一只叫做“队长”的德国牧羊犬在主人去世后，独自从家里跑到墓地，守护在主人的墓前，一守就是6年。<br>
 </span>
 
 <img src="img/funny/狗狗趣闻6.jpg"  width="15%">
 <p><a href="jiuzhu.jsp">昏迷主人16小时，英两宠物狗用体温救主</a></p>
-<span>&nbsp&nbsp2009年9月，英国两宠物狗陪伴昏迷主人16小时，用体温救其一命。<br><br><br>
+<span>2009年9月，英国两宠物狗陪伴昏迷主人16小时，用体温救其一命。<br><br><br>
 </span>
 
 <img src="img/funny/狗狗趣闻7.jpg"  width="18%">
@@ -68,9 +67,12 @@
 </span>
 
 
-<img src="img/funny/狗狗趣闻9.jpg"  width="10%">
-<p><a href="yiqing.jsp">疫情之下，如何给狗狗做好防护？</a></p>
-<span>&nbsp&nbsp这场突如其来的新冠病毒的瘟疫，让全国人民都自行减少外出，带上了口罩，纷纷加强了自我防护。与此同时，我们不应该忘记家中还有一个特殊的朋友：狗狗。<br>
+	   <img src="img/funny/狗狗趣闻1.jpg"  width="18%">
+	   <p><a href="agenting.jsp">极度热爱狗狗的国家：阿根廷</a></p>
+	   <span>
+&nbsp&nbsp一、狗的地位比人高<br>
+&nbsp&nbsp二、大笔开支不含糊<br>
+&nbsp&nbsp三、爱犬名字费心起<br>
 </span>
 </h1>
   <div class="footer">
@@ -101,7 +103,7 @@
 				<li><a href="fuxie.jsp">腹泻</a></li>
 				<li><a href="ganmao.jsp">感冒</a></li>
 				<li><a href="pifubing.jsp">皮肤病</a></li>
-				<li><a href="changbianmi.jsp">肠便秘</li>
+				<li><a href="changbianmi.jsp">肠便秘</a></li>
 				              
 			</ul>
 		</div>
@@ -111,7 +113,7 @@
 				<li><a href="lvai.jsp">狗狗救主人</a></li>
 				<li><a href="qinglvjiudian.jsp">狗狗情侣酒店</a></li>
 				<li><a href="huozhonghumao.jsp">火中护猫</a></li>
-				<li><a href="taiguohuangguan.jsp">属于狗狗的皇冠</li>
+				<li><a href="taiguohuangguan.jsp">属于狗狗的皇冠</a></li>
 				              
 			</ul>
 		</div>

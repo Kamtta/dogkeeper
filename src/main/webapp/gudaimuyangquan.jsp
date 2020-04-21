@@ -30,7 +30,7 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：古代牧羊犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：英国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<p>姓名：古代牧羊犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：英国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 寿命：10-12年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：稍难养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 &nbsp&nbsp&nbsp&nbsp价格：2000-5000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：牧羊犬<br><br>
 &nbsp&nbsp&nbsp&nbsp掉毛：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：较低频&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：较干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp

@@ -23,14 +23,15 @@
   </div>
   <h1><img src="img/dog/感冒.jpg"  width="27%">
   <p>感冒</p>
-  <span>
+<p style="line-height: 1em;font-family: SimSun;font-size: 20px;color: #1d2124">
 <img src="D:/狗狗护理/狗狗/感冒1.jpg"  width="20%">
-  <span>&nbsp&nbsp症状：精神不好，打蔫，喜欢趴着;有流水样的鼻涕，打喷嚏和咳嗽;眼结膜充血，流泪，食欲不振;体温升高，一般为39-40℃。<br>
-&nbsp&nbsp原因：受凉，多见于洗澡后，天气变化，长期吹空调;病毒感染;被传染感冒病毒。<br>
-&nbsp&nbsp基本处理原则：抗病毒滴剂、紫雏菊花粉、免疫多糖膏、抗病毒冲剂、板蓝根;促进血液循环，保暖，热敷肚子。若不见好转，及时就医。<br><br>
-<p>&nbsp&nbsp感冒视频讲解</p>
-&nbsp&nbsp<iframe frameborder="0"height=300 width=400 src="https://v.qq.com/txp/iframe/player.html?vid=n09030usdme" allowFullScreen="true"></iframe>
-</h1>
+  症状：精神不好，打蔫，喜欢趴着;有流水样的鼻涕，打喷嚏和咳嗽;眼结膜充血，流泪，食欲不振;体温升高，一般为39-40℃。<br>
+原因：受凉，多见于洗澡后，天气变化，长期吹空调;病毒感染;被传染感冒病毒。<br>
+基本处理原则：抗病毒滴剂、紫雏菊花粉、免疫多糖膏、抗病毒冲剂、板蓝根;促进血液循环，保暖，热敷肚子。若不见好转，及时就医。<br><br></p>
+   <br>
+<p>感冒视频讲解</p>
+<iframe frameborder="0"height=300 width=400 src="https://v.qq.com/txp/iframe/player.html?vid=n09030usdme" allowFullScreen="true"></iframe>
+  </h1>
 </span>
 </body>
 </html>

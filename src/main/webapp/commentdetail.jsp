@@ -25,8 +25,10 @@
     <button type="button" class="btn btn-outline-success" onclick="firstpage()">返回主页面</button>
 </div>
 <div id="question-content"><h2><%=(new UserCommentDaoImpl()).findContentById(Integer.valueOf(request.getParameter("commentid")))%></h2></div>
+<br>
 <table>
-    <tbody id="data-content" class="th-style">
+    <tbody id="data-content" class="th-style" style="color: black;font-family: SimSun;
+    font-size: 20px;padding: 20px;margin: 20px">
 
     </tbody>
 </table>
@@ -35,7 +37,7 @@
 <input type="hidden" name="commentid">
 
 <p style="text-align: center">
-    <button type="button" class="btn btn-success" onclick="pre()">上一页</button>&nbsp&nbsp&nbsp&nbsp
+    <button type="button" class="btn btn-success" onclick="pre()">上一页</button>
     <button type="button" class="btn btn-success" onclick="next()">下一页</button>
 </p>
 <form role="form" action="insertComment.comment">
@@ -82,7 +84,7 @@
                 var str = "";
                 console.log(result)
                 $(result.content).each(function () {
-                    str += "<tr><td>"+this.uname+"</td><td>"+this.content+"</td></tr>"
+                    str += "<tr><td>"+this.uname+":"+this.content+"</td></tr>"
                 })
                 $("#data-content").html(str);
                 $("input[name='current']").val(result.currentPage)

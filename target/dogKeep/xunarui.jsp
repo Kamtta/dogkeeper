@@ -33,7 +33,7 @@
       </h1>
     </div>
     <p>
-      &nbsp&nbsp&nbsp&nbsp姓名：雪纳瑞&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：德国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      姓名：雪纳瑞&nbsp&nbsp&nbsp原产地：德国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       寿命：13-16年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       <br /><br />&nbsp&nbsp&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       &nbsp&nbsp&nbsp&nbsp价格：1500-7000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：伴侣犬<br /><br />

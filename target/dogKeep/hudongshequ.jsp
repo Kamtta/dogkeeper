@@ -74,7 +74,7 @@
                     var str = "";
                     console.log(result)
                     $(result.content).each(function () {
-                        str += "<tr><td><a href=\"commentdetail.jsp?commentid="+this.commentid+"\">" +this.content+
+                        str += "<tr><td><a style='font-size: 20px;font-family: SimSun;line-height: 1em;text-decoration: none;color: #1b1e21;' href=\"commentdetail.jsp?commentid="+this.commentid+"\">" +this.content+
                             "</a></td></tr>"
                     })
                     $("#data-content").html(str);

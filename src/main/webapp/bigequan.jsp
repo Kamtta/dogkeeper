@@ -27,12 +27,12 @@
 	 最后成为家庭犬的一份子。</span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：比格犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：英国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-寿命：12-15年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp价格：2000-6000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：狩猎犬<br><br>
-&nbsp&nbsp&nbsp&nbsp掉毛：易掉毛&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：较多频&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：较干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-训练：中等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：较高
-&nbsp&nbsp&nbsp&nbsp</p>
+<p>姓名：比格犬&nbsp原产地：英国&nbsp
+寿命：12-15年&nbsp <br><br>饲养：好养&nbsp
+价格：2000-6000元&nbsp功能：狩猎犬<br><br>
+掉毛：易掉毛爱叫：较多频干净：较干净
+训练：中等强度综合：较高
+</p>
    
   </body>
   </html>

@@ -26,12 +26,12 @@
 	 茶杯犬虽然长不大，但寿命较短且不太好养，购买饲养需做足功课。</span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：茶杯犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：美国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-寿命：10-15年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：偏难养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp价格：2000-10000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：伴侣犬<br><br>
-&nbsp&nbsp&nbsp&nbsp掉毛：易掉毛&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：爱干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-训练：低等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：偏低
-&nbsp&nbsp&nbsp&nbsp</p>
+<p>姓名：茶杯犬&nbsp原产地：美国&nbsp
+寿命：10-15年&nbsp <br><br>饲养：偏难养&nbsp
+价格：2000-10000元&nbsp功能：伴侣犬<br><br>
+掉毛：易掉毛爱叫：适中干净：爱干净
+训练：低等强度综合：偏低
+</p>
    
   </body>
   </html>

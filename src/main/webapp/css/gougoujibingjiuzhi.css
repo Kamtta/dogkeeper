@@ -8,6 +8,7 @@ background-color:deepskyblue;
 list-style:none;
 padding:0;
 margin:0;
+ text-align: center;
 }
 .nav ul li{
 float:left;
@@ -15,7 +16,7 @@ float:left;
 }
 .nav ul li a{
 display:inline-block;width:150px;height:50px;
-text-align:conter;line-height:50px;color:#ffffff;text-decoration:none;
+text-align:center;line-height:50px;color:#ffffff;text-decoration:none;
 		 }
 .nav ul li a:hover{background-color:slateblue;
 }

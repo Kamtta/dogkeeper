@@ -29,42 +29,42 @@
 
   <div style="margin-top:50px;">
     <h2><img src="img/dog/狗狗2.jpg" align="center">
-      <span>短毛小型犬：<a href="kejiquan.jsp">柯基犬</a>&nbsp&nbsp<a href="bagequan.jsp">巴哥犬</a>&nbsp&nbsp<a href="xiaomilu.jsp">小鹿犬</a>
-        &nbsp&nbsp<a href="xilaquan.jsp">腊肠犬</a>&nbsp&nbsp<a href="bigequan.jsp">比格犬</a>&nbsp&nbsp<a href="hudiequan.jsp">蝴蝶犬</a>
-        &nbsp&nbsp<a href="guwawa.jsp">吉娃娃</a>&nbsp&nbsp<a href="chabeiquan.jsp">茶杯犬</a> &nbsp&nbsp<a href=" maquan.jsp"> 马犬</a>
-        &nbsp&nbsp<a href=" faguodouniuquan.jsp"> 法国斗牛犬</a> </span>
+      <span>短毛小型犬：<a href="kejiquan.jsp">柯基犬</a><a href="bagequan.jsp">巴哥犬</a><a href="xiaomilu.jsp">小鹿犬</a>
+        <a href="xilaquan.jsp">腊肠犬</a><a href="bigequan.jsp">比格犬</a><a href="hudiequan.jsp">蝴蝶犬</a>
+        <a href="guwawa.jsp">吉娃娃</a><a href="chabeiquan.jsp">茶杯犬</a> <a href=" maquan.jsp"> 马犬</a>
+        <a href=" faguodouniuquan.jsp"> 法国斗牛犬</a> </span>
     </h2>
   </div>
 
 
   <div>
     <h2><img src="img/dog/狗狗3.jpg" align="center">
-      <span>短毛大型犬：<a href="dubinquan.jsp">杜宾犬</a>&nbsp&nbsp <a href="luoweiquan.jsp">罗威纳犬</a>&nbsp&nbsp<a href="dadanquan.jsp">大丹犬</a>
-        &nbsp&nbsp<a href="qiutianquan.jsp">秋田犬</a>&nbsp&nbsp<a href="alasijia.jsp">阿拉斯加犬</a>&nbsp&nbsp<a href="deguomuyangquan.jsp">德国牧羊犬
+      <span>短毛大型犬：<a href="dubinquan.jsp">杜宾犬</a> <a href="luoweiquan.jsp">罗威纳犬</a><a href="dadanquan.jsp">大丹犬</a>
+        <a href="qiutianquan.jsp">秋田犬</a><a href="alasijia.jsp">阿拉斯加犬</a><a href="deguomuyangquan.jsp">德国牧羊犬
         </a>
-        &nbsp&nbsp <a href="boerduoquan.jsp">波尔多犬</a> &nbsp&nbsp<a href="douniuaoquan.jsp">斗牛獒犬</a> </span>
+         <a href="boerduoquan.jsp">波尔多犬</a> <a href="douniuaoquan.jsp">斗牛獒犬</a> </span>
     </h2>
   </div>
 
   <div>
     <h2><img src="img/dog/狗狗4.jpg" align="center">
-      <span>长毛小型犬： <a href="bomeiquan.jsp">博美犬</a>&nbsp&nbsp <a href="bixiongquan.jsp">比熊犬</a>&nbsp&nbsp <a href=" xunarui.jsp">
+      <span>长毛小型犬： <a href="bomeiquan.jsp">博美犬</a> <a href="bixiongquan.jsp">比熊犬</a> <a href=" xunarui.jsp">
           雪纳瑞</a>
-        &nbsp&nbsp <a href="yuekexiaquan.jsp">约克夏犬</a>&nbsp&nbsp<a href="maerjisiquan.jsp">马尔济斯犬</a></span>
+         <a href="yuekexiaquan.jsp">约克夏犬</a><a href="maerjisiquan.jsp">马尔济斯犬</a></span>
     </h2>
   </div>
 
   <div>
     <h2><img src="img/dog/狗狗5.jpg" align="center">
-      <span>长毛大型犬： <a href="jinmaoquan.jsp">金毛犬</a>&nbsp&nbsp <a href="bijiasuoquan.jsp">高加索犬</a>&nbsp&nbsp <a href="zangao.jsp">藏獒</a>
-        &nbsp&nbsp <a href="gudaimuyangquan.jsp">古代牧羊犬</a>&nbsp&nbsp <a href="dabaixiong.jsp">大白熊</a></span>
+      <span>长毛大型犬： <a href="jinmaoquan.jsp">金毛犬</a> <a href="bijiasuoquan.jsp">高加索犬</a> <a href="zangao.jsp">藏獒</a>
+         <a href="gudaimuyangquan.jsp">古代牧羊犬</a> <a href="dabaixiong.jsp">大白熊</a></span>
     </h2>
   </div>
   <h4>
     <p>训练狗狗定点排便视频讲解：</p>
     <iframe height=300 width=400 src='https://player.youku.com/embed/XMzYwOTY3MzM5Mg=='
       frameborder=0 'allowfullscreen'></iframe><br>
-    <p><a href="gougoumengzhao.jsp">&nbsp&nbsp狗狗萌照</a></p>
+    <p><a href="gougoumengzhao.jsp">狗狗萌照</a></p>
     <table>
       <tr>
         <td><img src="img/cutedog/狗狗2.jpg" width="100%"> </td>
@@ -73,41 +73,41 @@
           <img src="img/cutedog/狗狗5.jpg" width="60%">
           <img src="img/cutedog/狗狗6.jpg" width="60%">
     </table>
-    <p><a href="gougoujibingjiuzhi.jsp">&nbsp&nbsp狗狗疾病救治</a></p>
+    <p><a href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a></p>
     <span>狗狗感冒怎么办？<br><br>
       <img src="img/dog/狗狗疾病2.jpg" width="30%"><br><br><br>
 
-      &nbsp&nbsp症状：精神不好，打蔫，喜欢趴着;有流水样的鼻涕，打喷嚏和咳嗽;眼结膜充血，流泪，食欲不振;体温升高，一般为39-40℃。<br>
-      &nbsp&nbsp原因：受凉，多见于洗澡后，天气变化，长期吹空调;病毒感染;被传染感冒病毒。<br>
-      &nbsp&nbsp基本处理原则：抗病毒滴剂、紫雏菊花粉、免疫多糖膏、抗病毒冲剂、板蓝根;促进血液循环，保暖，热敷肚子。若不见好转，及时就医。<br><br>
+      症状：精神不好，打蔫，喜欢趴着;有流水样的鼻涕，打喷嚏和咳嗽;眼结膜充血，流泪，食欲不振;体温升高，一般为39-40℃。<br>
+      原因：受凉，多见于洗澡后，天气变化，长期吹空调;病毒感染;被传染感冒病毒。<br>
+      基本处理原则：抗病毒滴剂、紫雏菊花粉、免疫多糖膏、抗病毒冲剂、板蓝根;促进血液循环，保暖，热敷肚子。若不见好转，及时就医。<br><br>
 
-      <p><a href="xinshouxuzhi.jsp">&nbsp&nbsp新手需知</a></p>
+      <p><a href="xinshouxuzhi.jsp">新手需知</a></p>
       <span>推荐适合初养的狗狗：<br>
-        &nbsp&nbsp泰迪：比较喜欢和人类玩耍，而且非常的忠实。<br>
-        &nbsp&nbsp法国斗牛犬:脾气在狗狗中也是非常有名的好，在家中也不会随意的吠叫。<br>
-        &nbsp&nbsp雪纳瑞:不爱掉毛，性格上也比较温顺，家中有老人小孩的话雪纳瑞能跟它们玩到一块。<br>
-        &nbsp&nbsp小鹿犬：体型比较小，而且他们的毛发也不需要过多的打理。<br>
-        &nbsp&nbsp约克夏：性格是非常温顺,不需要带到外面去散步，在家中散步也是可以的。<br>
+        泰迪：比较喜欢和人类玩耍，而且非常的忠实。<br>
+        法国斗牛犬:脾气在狗狗中也是非常有名的好，在家中也不会随意的吠叫。<br>
+        雪纳瑞:不爱掉毛，性格上也比较温顺，家中有老人小孩的话雪纳瑞能跟它们玩到一块。<br>
+        小鹿犬：体型比较小，而且他们的毛发也不需要过多的打理。<br>
+        约克夏：性格是非常温顺,不需要带到外面去散步，在家中散步也是可以的。<br>
       </span>
   </h4>
   <h3>
-    <p><a href="gougourichangxunlian.jsp">&nbsp&nbsp&nbsp&nbsp狗狗日常训练</a></p>
-    &nbsp&nbsp狗狗定点排便:<br><br>
+    <p><a href="gougourichangxunlian.jsp">狗狗日常训练</a></p>
+    狗狗定点排便:<br><br>
     <img src="img/dog/狗狗11.jpg" align="center" width="11%">
     <span>
-      &nbsp&nbsp一、训练时间。<br><br><br>
+      一、训练时间。<br><br><br>
       <img src="img/dog/狗狗22.jpg" width="11%">
-      &nbsp&nbsp二、了解狗狗厕所的位置。<br><br><br>
+      二、了解狗狗厕所的位置。<br><br><br>
       <img src="img/dog/狗狗8.jpg" width="11%">
-      &nbsp&nbsp三、掌握狗狗要排便的信号。</span><br><br><br><br><br>
-    <p><a href="gougouquwen.jsp">&nbsp&nbsp&nbsp&nbsp狗狗趣闻</a></p>
-    <span>&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp狗狗模仿女主人开车，样子很可爱动作很娴熟！<br><br>
-      &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <iframe frameborder="0" height=300 width=400
+      三、掌握狗狗要排便的信号。</span><br><br><br><br><br>
+    <p><a href="gougouquwen.jsp">狗狗趣闻</a></p>
+    <span>  狗狗模仿女主人开车，样子很可爱动作很娴熟！<br><br>
+        <iframe frameborder="0" height=300 width=400
         src="https://v.qq.com/txp/iframe/player.html?vid=a0879hho9ze" allowFullScreen="true"></iframe>
     </span>
 
-    <p><a href="gougourichnaghuli.jsp">&nbsp&nbsp&nbsp&nbsp狗狗日常护理</a></p>
-    <span>&nbsp&nbsp&nbsp&nbsp 给狗狗刷牙<br>
+    <p><a href="gougourichnaghuli.jsp">狗狗日常护理</a></p>
+    <span> 给狗狗刷牙<br>
       &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <iframe frameborder="0" height="300" width="450"
         src="https://v.qq.com/txp/iframe/player.html?vid=u0884yiptjj" allowFullScreen="true"></iframe><br>
       &nbsp&nbsp&nbsp&nbsp1、用宠物专用牙刷，顺着牙齿的方向轻轻刷。<br>

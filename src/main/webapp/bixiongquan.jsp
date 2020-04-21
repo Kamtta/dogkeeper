@@ -28,9 +28,9 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：比熊犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：地中海&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-寿命：12-14年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp价格：1000-6000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：伴侣犬<br><br>
+<p>姓名：比熊犬&nbsp原产地：地中海&nbsp
+寿命：12-14年&nbsp <br><br>饲养：好养&nbsp
+价格：1000-6000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：伴侣犬<br><br>
 &nbsp&nbsp&nbsp&nbsp掉毛：偏少&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：偏低频&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：爱干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 训练：中等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：较高
 &nbsp&nbsp&nbsp&nbsp</p>

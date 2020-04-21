@@ -28,12 +28,12 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：藏獒&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：青藏高原&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-寿命：10-16年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：较难养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp价格：1000-10000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：护卫犬<br><br>
-&nbsp&nbsp&nbsp&nbsp掉毛：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：不太干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-训练：较高等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：适中
-&nbsp&nbsp&nbsp&nbsp</p>
+<p>姓名：藏獒&nbsp原产地：青藏高原&nbsp
+寿命：10-16年&nbsp <br><br>饲养：较难养&nbsp
+价格：1000-10000元&nbsp功能：护卫犬<br><br>
+掉毛：适中爱叫：适中干净：不太干净
+训练：较高等强度综合：适中
+</p>
    
   </body>
   </html>

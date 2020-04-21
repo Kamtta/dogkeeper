@@ -23,7 +23,7 @@
 </div>
 
 <h1>
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp萌化你的心！！！你的小可爱们上线了***</p>
+    <p>萌化你的心！！！你的小可爱们上线了***</p>
     <img src="img/cutedog/萌照1.jpg" width="15%"/>
     <img src="img/cutedog/萌照2.jpg" width="11%"/>
     <img src="img/cutedog/萌照3.jpg" width="10%"/>
@@ -31,7 +31,7 @@
     <img src="img/cutedog/萌照5.jpg" width="14%"/>
     <img src="img/cutedog/萌照6.jpg" width="14%"/><br><br><br><br>
 
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp潜水萌照</p>
+    <p>潜水萌照</p>
     <img src="img/cutedog/萌照7.jpg" width="13%"/>
     <img src="img/cutedog/萌照8.jpg" width="12%"/>
     <img src="img/cutedog/萌照9.jpg" width="13%"/>
@@ -39,7 +39,7 @@
     <img src="img/cutedog/萌照11.jpg" width="14%"/>
     <img src="img/cutedog/萌照12.jpg" width="14%"/><br><br><br>
 
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp穿衣萌照</p>
+    <p>穿衣萌照</p>
     <img src="img/cutedog/萌照13.jpg" width="11%"/>
     <img src="img/cutedog/萌照14.jpg" width="11%"/>
     <img src="img/cutedog/萌照15.jpg" width="12%"/>
@@ -47,7 +47,7 @@
     <img src="img/cutedog/萌照17.jpg" width="12%"/>
     <img src="img/cutedog/萌照18.jpg" width="13%"/><br><br><br><br>
 
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp吐舌萌照</p>
+    <p>吐舌萌照</p>
     <img src="img/cutedog/萌照19.jpg" width="11%"/>
     <img src="img/cutedog/萌照20.jpg" width="14%"/>
     <img src="img/cutedog/萌照21.jpg" width="12%"/>
@@ -55,7 +55,7 @@
     <img src="img/cutedog/萌照23.jpg" width="11%"/>
     <img src="img/cutedog/萌照24.jpg" width="12%"/><br><br><br><br>
 
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp好饿呀！！！</p>
+    <p>好饿呀！！！</p>
     <img src="img/cutedog/萌照25.jpg" width="11%"/>
     <img src="img/cutedog/萌照26.jpg" width="14%"/>
     <img src="img/cutedog/萌照27.jpg" width="12%"/>
@@ -63,7 +63,7 @@
     <img src="img/cutedog/萌照29.jpg" width="11%"/>
     <img src="img/cutedog/萌照30.jpg" width="12%"/><br><br><br><br><br>
 
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp美梦萌照</p>
+    <p>美梦萌照</p>
     <img src="img/cutedog/萌照31.jpg" width="13%"/>
     <img src="img/cutedog/萌照32.jpg" width="12%"/>
     <img src="img/cutedog/萌照33.jpg" width="14%"/>
@@ -71,7 +71,7 @@
     <img src="img/cutedog/萌照35.jpg" width="11%"/>
     <img src="img/cutedog/萌照36.jpg" width="14%"/><br><br><br><br>
 
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp孩子与狗狗萌照</p>
+    <p>孩子与狗狗萌照</p>
     <img src="img/cutedog/萌照37.jpg" width="13%"/>
     <img src="img/cutedog/萌照38.jpg" width="11%"/>
     <img src="img/cutedog/萌照39.jpg" width="10%"/>

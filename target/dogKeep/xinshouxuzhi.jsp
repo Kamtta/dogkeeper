@@ -9,7 +9,7 @@
  <body background="img/dogintroduction/背景图.jpg">
  
   <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -22,40 +22,40 @@
   </ul>
   </div>
   <h1>
- <p>&nbsp&nbsp新手养狗的注意事项</p>
+ <p>新手养狗的注意事项</p>
  <img src="img/dog/狗狗8.jpg"  width="25%">
- <span>
+ <p style="color: #2c2c2c;font-size: 25px;font-family: SimSun;line-height: 2em">
 <a href="yanggougouqian.jsp">养狗前的准备</a><br>
  1、环境的消毒。<br>2、狗狗用品的准备。<br><br><br><br>
  
 <img src="img/dog/狗狗5.jpg"  width="15%">
 <a href="gougoubaohuijiahou.jsp">狗狗抱回家后</a><br>
-&nbsp&nbsp一、狗狗的饮食方面<br>
+一、狗狗的饮食方面<br>
 <img src="img/dog/狗狗7.jpg"  width="10%">
-&nbsp&nbsp二、饮水方面<br>
+二、饮水方面<br>
 <img src="img/dog/狗狗9.jpg"  width="10%">
-&nbsp&nbsp三、洗澡方面<br>
+三、洗澡方面<br>
 <img src="img/dog/狗狗6.jpg"  width="9%">
-&nbsp&nbsp四、运动训练方面<br>
+四、运动训练方面<br>
 <img src="img/dog/狗狗27.jpg"  width="8%">
-&nbsp&nbsp五、禁食<br>
+五、禁食<br>
 <img src="img/dog/狗狗28.jpg"  width="8%">
-&nbsp&nbsp六、驱虫方面<br>
+六、驱虫方面<br>
 <img src="img/dog/狗狗29.jpg"  width="8%">
-&nbsp&nbsp七、及时打育苗<br><br><br><br>
+七、及时打育苗<br><br><br><br>
 
-</span></h1>
+</p></h1>
   <h2>
- <p>&nbsp&nbsp推荐适合初养的狗狗：</p>
+ <p>推荐适合初养的狗狗：</p>
  <span>
-&nbsp&nbsp泰迪：比较喜欢和人类玩耍，而且非常的忠实。<br>
- &nbsp&nbsp法国斗牛犬:脾气在狗狗中也是非常有名的好，在家中也不会随意的吠叫。<br>
- &nbsp&nbsp雪纳瑞:不爱掉毛，性格上也比较温顺，家中有老人小孩的话雪纳瑞能跟它们玩到一块。<br>
- &nbsp&nbsp小鹿犬：体型比较小，而且他们的毛发也不需要过多的打理。<br>
- &nbsp&nbsp约克夏：性格是非常温顺,不需要带到外面去散步，在家中散步也是可以的。<br>
+泰迪：比较喜欢和人类玩耍，而且非常的忠实。<br>
+ 法国斗牛犬:脾气在狗狗中也是非常有名的好，在家中也不会随意的吠叫。<br>
+ 雪纳瑞:不爱掉毛，性格上也比较温顺，家中有老人小孩的话雪纳瑞能跟它们玩到一块。<br>
+ 小鹿犬：体型比较小，而且他们的毛发也不需要过多的打理。<br>
+ 约克夏：性格是非常温顺,不需要带到外面去散步，在家中散步也是可以的。<br>
 </span>
 
-</h5>
+</h2>
   </body>
   <div class="footer">
 	<div class="f_ct">

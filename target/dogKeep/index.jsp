@@ -25,7 +25,7 @@
                                 <i class="fa fa-phone-square"></i>
                             </span>
                 </div>
-                <input type="text" id="telephone" class="form-control" name="telephone" placeholder="telephone">
+                <input type="text" id="telephone" class="form-control" name="telephone" placeholder="username">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
@@ -42,7 +42,7 @@
             </div>
             <div class="btn-style" >
                 <button type="submit" class="btn btn-outline-success"  onclick="checkInCorrect()">登录</button>
-                &nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp
                 <button type="button" class="btn btn-outline-info" onclick="window.open('register.jsp')">注册</button>
                 <%--<script></script>--%>
             </div>

@@ -28,11 +28,11 @@
 	  </h1>
   </div>
 
- <p>  &nbsp&nbsp&nbsp&nbsp姓名：柯基犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：英国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-寿命：12-15年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp价格：1000-6000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：牧羊犬<br><br>
-&nbsp&nbsp&nbsp&nbsp掉毛：易掉毛&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：较干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-训练：中等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：适中</p>
-&nbsp&nbsp&nbsp&nbsp
+ <p>  姓名：柯基犬&nbsp原产地：英国&nbsp
+寿命：12-15年&nbsp <br><br>饲养：好养&nbsp
+价格：1000-6000元&nbsp功能：牧羊犬<br><br>
+掉毛：易掉毛爱叫：适中干净：较干净
+训练：中等强度综合：适中</p>
+
   </body>
   </html>

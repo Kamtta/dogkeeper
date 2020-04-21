@@ -37,13 +37,13 @@
       </h1>
     </div>
     <p>
-      &nbsp&nbsp&nbsp&nbsp姓名：法国斗牛犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：法国&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      寿命：12-15年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      <br /><br />&nbsp&nbsp&nbsp&nbsp饲养：较好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      &nbsp&nbsp&nbsp&nbsp价格：2000-8000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：护卫犬<br /><br />
-      &nbsp&nbsp&nbsp&nbsp掉毛：易掉毛&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：爱干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      训练：中等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：较高
-      &nbsp&nbsp&nbsp&nbsp
+      姓名：法国斗牛犬&nbsp原产地：法国&nbsp
+      寿命：12-15年&nbsp
+      <br /><br />饲养：较好养&nbsp
+      价格：2000-8000元&nbsp功能：护卫犬<br /><br />
+      掉毛：易掉毛爱叫：适中干净：爱干净
+      训练：中等强度综合：较高
+
     </p>
   </body>
 </html>

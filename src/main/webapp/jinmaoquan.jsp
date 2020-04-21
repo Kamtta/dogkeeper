@@ -27,12 +27,12 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>&nbsp&nbsp&nbsp&nbsp姓名：金毛犬&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp原产地：苏格兰&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-寿命：12-15年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br><br>&nbsp&nbsp&nbsp&nbsp饲养：好养&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp价格：500-4000元&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp功能：工作犬<br><br>
-&nbsp&nbsp&nbsp&nbsp掉毛：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp爱叫：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：较干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-训练：中等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：适中
-&nbsp&nbsp&nbsp&nbsp</p>
+<p>姓名：金毛犬&nbsp原产地：苏格兰&nbsp
+寿命：12-15年&nbsp <br><br>饲养：好养&nbsp
+价格：500-4000元&nbsp功能：工作犬<br><br>
+掉毛：适中爱叫：适中干净：较干净
+训练：中等强度综合：适中
+</p>
    
   </body>
   </html>

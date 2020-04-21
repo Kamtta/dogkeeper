@@ -23,13 +23,13 @@
   </div>
   <h1><img src="img/dog/咳嗽.jpg"  width="27%">
   <p>咳嗽</p>
-  <span>&nbsp&nbsp干咳：声音短脆，无明显痰鸣，可能是呼吸道异物或呼吸系统急性炎症初期。<br>
-&nbsp&nbsp湿咳：声音浑浊伴随痰鸣，说明呼吸道内有大量分泌物存在，可能是呼吸道炎症中期表现。<br>
-&nbsp&nbsp夜咳：年迈或肥胖的狗狗缺乏锻炼，夜里睡觉时出现咳嗽，观察可见狗狗闭着眼，常认为只是做梦。若此情况连续出现，可能是心脏疾病前兆。<br>
-&nbsp&nbsp咳嗽伴呕吐：连续干咳，有时甚至呕吐，可能是犬窝咳(即犬传染性气管支气管炎)，常见于2-5月龄幼犬。<br>
-&nbsp&nbsp基本处理原则：向专业医生描述病发细节利于医生对狗狗病情做出正确判断，若有其他犬只，应立即隔离防感染。<br>
-<p>&nbsp&nbsp咳嗽视频讲解</p>
-&nbsp&nbsp<iframe frameborder="0"height=300 width=400  src="https://v.qq.com/txp/iframe/player.html?vid=w0864jwc950" allowFullScreen="true"></iframe>
+  <span>干咳：声音短脆，无明显痰鸣，可能是呼吸道异物或呼吸系统急性炎症初期。<br>
+湿咳：声音浑浊伴随痰鸣，说明呼吸道内有大量分泌物存在，可能是呼吸道炎症中期表现。<br>
+夜咳：年迈或肥胖的狗狗缺乏锻炼，夜里睡觉时出现咳嗽，观察可见狗狗闭着眼，常认为只是做梦。若此情况连续出现，可能是心脏疾病前兆。<br>
+咳嗽伴呕吐：连续干咳，有时甚至呕吐，可能是犬窝咳(即犬传染性气管支气管炎)，常见于2-5月龄幼犬。<br>
+基本处理原则：向专业医生描述病发细节利于医生对狗狗病情做出正确判断，若有其他犬只，应立即隔离防感染。<br>
+<p>咳嗽视频讲解</p>
+<iframe frameborder="0"height=300 width=400  src="https://v.qq.com/txp/iframe/player.html?vid=w0864jwc950" allowFullScreen="true"></iframe>
 </h1>
 </span>
 </body>

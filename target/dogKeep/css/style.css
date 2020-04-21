@@ -176,8 +176,9 @@ html body{
 }
 /*商品的样式*/
 .th-style{
-    color: green;
-    font-family: 方正舒体;
+    color: black;
+    font-family: SimSun;
+    font-size: 20px;
 }
 #goodstable{
     margin-top: 20px;

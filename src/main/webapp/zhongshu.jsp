@@ -31,8 +31,8 @@
 3. 如果上述步骤无效，可用冷水泼洒在狗狗身上，或是将狗狗浸泡在水中，但是要注意用手支撑狗狗的头部，保持颈部以上高出水面，以免进水呛到。泡水的同时，可轻轻按摩GG的全身，帮助达到降温的效果，体温约降到39度即可停止。<br>  
 4. 发现GG体温降低后，须迅速用大毛巾将狗狗全身擦干，以免体温下降过快，不要使用吹风机，以免热风造成体温再度升高，或是冷风导致感冒。  <br>
 5. 急救处理完毕后，迅速将狗狗送医院，继续处理观察。<br>
- <p>&nbsp&nbsp中暑视频讲解</p>
-&nbsp&nbsp&nbsp&nbsp<iframe frameborder="0" height=300 width=400 src="https://v.qq.com/txp/iframe/player.html?vid=o0816f4ztsf" allowFullScreen="true"></iframe>
+ <p>中暑视频讲解</p>
+<iframe frameborder="0" height=300 width=400 src="https://v.qq.com/txp/iframe/player.html?vid=o0816f4ztsf" allowFullScreen="true"></iframe>
 </h3>
 </span>
 </body>

@@ -7,7 +7,7 @@
   </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-      <ul>
+      <ul style="text-align: center">
         <li><a href="firstpage.jsp">首页</a></li>
         <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
         <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -33,12 +33,12 @@
       </h1>
     </div>
     <p>
-      姓名：大白熊&nbsp原产地：法国&nbsp
-      寿命：12-15年&nbsp
-      <br /><br />饲养：好养&nbsp
-      价格：1000-10000元&nbsp功能：牧羊犬、护卫犬<br /><br />
-      掉毛：较少量爱叫：较低频干净：爱干净
-      训练：中等强度综合：适中
+      姓名：大白熊&nbsp&nbsp原产地：法国&nbsp&nbsp
+      寿命：12-15年&nbsp&nbsp
+      <br /><br />饲养：好养&nbsp&nbsp
+      价格：1000-10000元&nbsp&nbsp功能：牧羊犬、护卫犬<br /><br />
+      掉毛：较少量&nbsp&nbsp爱叫：较低频&nbsp&nbsp干净：爱干净&nbsp&nbsp
+      训练：中等强度&nbsp&nbsp综合：适中
 
     </p>
   </body>

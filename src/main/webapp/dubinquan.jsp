@@ -7,7 +7,7 @@
   </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-      <ul>
+      <ul style="text-align: center">
         <li><a href="firstpage.jsp">首页</a></li>
         <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
         <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -33,12 +33,12 @@
       </h1>
     </div>
     <p>
-      姓名：杜宾犬&nbsp原产地：德国&nbsp
-      寿命：10-14年&nbsp
-      <br /><br />饲养：好养&nbsp
-      价格：500-3000元&nbsp功能：工作犬<br /><br />
-      掉毛：适中爱叫：较低频干净：较干净
-      训练：中等强度综合：适中
+      姓名：杜宾犬&nbsp&nbsp原产地：德国&nbsp&nbsp
+      寿命：10-14年&nbsp&nbsp
+      <br /><br />饲养：好养&nbsp&nbsp
+      价格：500-3000元&nbsp&nbsp功能：工作犬<br /><br />
+      掉毛：适中&nbsp&nbsp爱叫：较低频&nbsp&nbsp干净：较干净&nbsp&nbsp
+      训练：中等强度&nbsp&nbsp综合：适中
 
     </p>
   </body>

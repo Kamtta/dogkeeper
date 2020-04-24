@@ -7,7 +7,7 @@
 </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -28,11 +28,11 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>姓名：藏獒&nbsp原产地：青藏高原&nbsp
-寿命：10-16年&nbsp <br><br>饲养：较难养&nbsp
-价格：1000-10000元&nbsp功能：护卫犬<br><br>
-掉毛：适中爱叫：适中干净：不太干净
-训练：较高等强度综合：适中
+<p>姓名：藏獒&nbsp&nbsp原产地：青藏高原&nbsp&nbsp
+寿命：10-16年&nbsp&nbsp <br><br>饲养：较难养&nbsp&nbsp
+价格：1000-10000元&nbsp&nbsp功能：护卫犬<br><br>
+掉毛：适中&nbsp&nbsp爱叫：适中&nbsp&nbsp干净：不太干净&nbsp&nbsp
+训练：较高等强度&nbsp&nbsp综合：适中
 </p>
    
   </body>

@@ -29,9 +29,9 @@
 
   <div style="margin-top:50px;">
     <h2><img src="img/dog/狗狗2.jpg" align="center">
-      <span>短毛小型犬：<a href="kejiquan.jsp">柯基犬</a><a href="bagequan.jsp">巴哥犬</a><a href="xiaomilu.jsp">小鹿犬</a>
-        <a href="xilaquan.jsp">腊肠犬</a><a href="bigequan.jsp">比格犬</a><a href="hudiequan.jsp">蝴蝶犬</a>
-        <a href="guwawa.jsp">吉娃娃</a><a href="chabeiquan.jsp">茶杯犬</a> <a href=" maquan.jsp"> 马犬</a>
+      <span>短毛小型犬：<a href="kejiquan.jsp">柯基犬</a>&nbsp&nbsp<a href="bagequan.jsp">巴哥犬</a>&nbsp&nbsp<a href="xiaomilu.jsp">小鹿犬</a>&nbsp&nbsp
+        <a href="xilaquan.jsp">腊肠犬</a>&nbsp&nbsp<a href="bigequan.jsp">比格犬</a>&nbsp&nbsp<a href="hudiequan.jsp">蝴蝶犬</a>&nbsp&nbsp
+        <a href="guwawa.jsp">吉娃娃</a>&nbsp&nbsp<a href="chabeiquan.jsp">茶杯犬</a> &nbsp&nbsp<a href=" maquan.jsp"> 马犬</a>&nbsp&nbsp
         <a href=" faguodouniuquan.jsp"> 法国斗牛犬</a> </span>
     </h2>
   </div>
@@ -39,31 +39,31 @@
 
   <div>
     <h2><img src="img/dog/狗狗3.jpg" align="center">
-      <span>短毛大型犬：<a href="dubinquan.jsp">杜宾犬</a> <a href="luoweiquan.jsp">罗威纳犬</a><a href="dadanquan.jsp">大丹犬</a>
-        <a href="qiutianquan.jsp">秋田犬</a><a href="alasijia.jsp">阿拉斯加犬</a><a href="deguomuyangquan.jsp">德国牧羊犬
-        </a>
-         <a href="boerduoquan.jsp">波尔多犬</a> <a href="douniuaoquan.jsp">斗牛獒犬</a> </span>
+      <span>短毛大型犬：<a href="dubinquan.jsp">杜宾犬</a>&nbsp&nbsp <a href="luoweiquan.jsp">罗威纳犬</a>&nbsp&nbsp<a href="dadanquan.jsp">大丹犬</a>&nbsp&nbsp
+        <a href="qiutianquan.jsp">秋田犬</a>&nbsp&nbsp<a href="alasijia.jsp">阿拉斯加犬</a>&nbsp&nbsp<a href="deguomuyangquan.jsp">德国牧羊犬
+        </a>&nbsp&nbsp
+         <a href="boerduoquan.jsp">波尔多犬</a>&nbsp&nbsp <a href="douniuaoquan.jsp">斗牛獒犬</a> </span>
     </h2>
   </div>
 
   <div>
     <h2><img src="img/dog/狗狗4.jpg" align="center">
-      <span>长毛小型犬： <a href="bomeiquan.jsp">博美犬</a> <a href="bixiongquan.jsp">比熊犬</a> <a href=" xunarui.jsp">
+      <span>长毛小型犬： <a href="bomeiquan.jsp">博美犬</a> &nbsp&nbsp<a href="bixiongquan.jsp">比熊犬</a> &nbsp&nbsp<a href=" xunarui.jsp">
           雪纳瑞</a>
-         <a href="yuekexiaquan.jsp">约克夏犬</a><a href="maerjisiquan.jsp">马尔济斯犬</a></span>
+         <a href="yuekexiaquan.jsp">约克夏犬</a>&nbsp&nbsp<a href="maerjisiquan.jsp">马尔济斯犬</a></span>
     </h2>
   </div>
 
   <div>
     <h2><img src="img/dog/狗狗5.jpg" align="center">
-      <span>长毛大型犬： <a href="jinmaoquan.jsp">金毛犬</a> <a href="bijiasuoquan.jsp">高加索犬</a> <a href="zangao.jsp">藏獒</a>
-         <a href="gudaimuyangquan.jsp">古代牧羊犬</a> <a href="dabaixiong.jsp">大白熊</a></span>
+      <span>长毛大型犬： <a href="jinmaoquan.jsp">金毛犬</a>&nbsp&nbsp <a href="bijiasuoquan.jsp">高加索犬</a> &nbsp&nbsp<a href="zangao.jsp">藏獒</a>&nbsp&nbsp
+         <a href="gudaimuyangquan.jsp">古代牧羊犬</a>&nbsp&nbsp <a href="dabaixiong.jsp">大白熊</a></span>
     </h2>
   </div>
   <h4>
     <p>训练狗狗定点排便视频讲解：</p>
     <iframe height=300 width=400 src='https://player.youku.com/embed/XMzYwOTY3MzM5Mg=='
-      frameborder=0 'allowfullscreen'></iframe><br>
+      frameborder=0 allowfullscreen="true"></iframe><br>
     <p><a href="gougoumengzhao.jsp">狗狗萌照</a></p>
     <table>
       <tr>
@@ -158,7 +158,7 @@
         <li><a href="fuxie.jsp">腹泻</a></li>
         <li><a href="ganmao.jsp">感冒</a></li>
         <li><a href="pifubing.jsp">皮肤病</a></li>
-        <li><a href="changbianmi.jsp">肠便秘</li>
+        <li><a href="changbianmi.jsp">肠便秘</a></li>
 
       </ul>
     </div>
@@ -170,7 +170,7 @@
         <li><a href="lvai.jsp">狗狗救主人</a></li>
         <li><a href="qinglvjiudian.jsp">狗狗情侣酒店</a></li>
         <li><a href="huozhonghumao.jsp">火中护猫</a></li>
-        <li><a href="taiguohuangguan.jsp">属于狗狗的皇冠</li>
+        <li><a href="taiguohuangguan.jsp">属于狗狗的皇冠</a></li>
 
       </ul>
     </div>
@@ -179,5 +179,4 @@
   <p style="height: 58px;line-height: 26px; padding: 16px 0 0;"><a href="http://www.12377.cn/"
       target="_blank">中国互联网举报中心</a> 举报邮箱：1945237885@qq.com 违法和不良信息举报电话：12377<br></p>
 </div>
-
 </html>

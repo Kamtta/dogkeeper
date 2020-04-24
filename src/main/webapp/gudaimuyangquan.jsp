@@ -7,7 +7,7 @@
 </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>

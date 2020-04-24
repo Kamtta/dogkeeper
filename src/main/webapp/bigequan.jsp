@@ -7,7 +7,7 @@
 </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -27,11 +27,11 @@
 	 最后成为家庭犬的一份子。</span></h2>
 	  </h1>
   </div>
-<p>姓名：比格犬&nbsp原产地：英国&nbsp
-寿命：12-15年&nbsp <br><br>饲养：好养&nbsp
-价格：2000-6000元&nbsp功能：狩猎犬<br><br>
-掉毛：易掉毛爱叫：较多频干净：较干净
-训练：中等强度综合：较高
+<p>姓名：比格犬&nbsp&nbsp原产地：英国&nbsp&nbsp
+寿命：12-15年&nbsp&nbsp <br><br>饲养：好养&nbsp&nbsp
+价格：2000-6000元&nbsp&nbsp功能：狩猎犬<br><br>
+掉毛：易掉毛&nbsp&nbsp爱叫：较多频&nbsp&nbsp干净：较干净&nbsp&nbsp
+训练：中等强度&nbsp&nbsp综合：较高
 </p>
    
   </body>

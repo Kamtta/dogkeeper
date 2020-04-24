@@ -7,7 +7,7 @@
 </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -29,11 +29,11 @@
 	 非常适宜被现在居住在公寓里面的人们所饲养。</span></h2>
 	  </h1>
   </div>
-<p>姓名：吉娃娃&nbsp原产地：墨西哥&nbsp
-寿命：13-14年&nbsp <br><br>饲养：好养&nbsp
-价格：2000-6000元&nbsp功能：伴侣犬<br><br>
-掉毛：易掉毛爱叫：适中干净：爱干净
-训练：低等强度综合：较高
+<p>姓名：吉娃娃&nbsp&nbsp原产地：墨西哥&nbsp&nbsp
+寿命：13-14年&nbsp&nbsp <br><br>饲养：好养&nbsp&nbsp
+价格：2000-6000元&nbsp&nbsp功能：伴侣犬<br><br>
+掉毛：易掉毛&nbsp&nbsp爱叫：适中&nbsp&nbsp干净：爱干净&nbsp&nbsp
+训练：低等强度&nbsp&nbsp综合：较高
 </p>
    
   </body>

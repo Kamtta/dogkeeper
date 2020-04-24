@@ -7,7 +7,7 @@
 </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -28,11 +28,11 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>姓名：马尔济斯犬&nbsp原产地：地中海&nbsp
-寿命：12-14年&nbsp <br><br>饲养：不好养&nbsp
-价格：5500-20000元&nbsp功能：观赏犬<br><br>
-掉毛：较少爱叫：适中干净：较干净
-训练：中等强度综合：适中
+<p>姓名：马尔济斯犬&nbsp&nbsp原产地：地中海&nbsp&nbsp
+寿命：12-14年&nbsp&nbsp <br><br>饲养：不好养&nbsp&nbsp
+价格：5500-20000元&nbsp&nbsp功能：观赏犬<br><br>
+掉毛：较少&nbsp&nbsp爱叫：适中&nbsp&nbsp干净：较干净&nbsp&nbsp
+训练：中等强度&nbsp&nbsp综合：适中
 </p>
    
   </body>

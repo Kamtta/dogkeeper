@@ -7,7 +7,7 @@
 </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -28,9 +28,9 @@
 	 </span></h2>
 	  </h1>
   </div>
-<p>姓名：波尔多犬&nbsp原产地：法国&nbsp
-寿命：9-11年&nbsp <br><br>饲养：好养&nbsp
-价格：5000-20000元&nbsp功能：工作犬、伴侣犬<br><br>
+<p>姓名：波尔多犬&nbsp&nbsp原产地：法国&nbsp&nbsp
+寿命：9-11年&nbsp&nbsp <br><br>饲养：好养&nbsp&nbsp
+价格：5000-20000元&nbsp&nbsp功能：工作犬、伴侣犬<br><br>
 掉毛：适中&nbsp&nbsp爱叫：适中&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净：较干净&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 训练：偏高等强度&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综合：适中
 &nbsp&nbsp&nbsp&nbsp</p>

@@ -7,7 +7,7 @@
   </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-      <ul>
+      <ul style="text-align: center">
         <li><a href="firstpage.jsp">首页</a></li>
         <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
         <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -37,12 +37,12 @@
       </h1>
     </div>
     <p>
-      姓名：法国斗牛犬&nbsp原产地：法国&nbsp
-      寿命：12-15年&nbsp
-      <br /><br />饲养：较好养&nbsp
-      价格：2000-8000元&nbsp功能：护卫犬<br /><br />
-      掉毛：易掉毛爱叫：适中干净：爱干净
-      训练：中等强度综合：较高
+      姓名：法国斗牛犬&nbsp&nbsp原产地：法国&nbsp&nbsp
+      寿命：12-15年&nbsp&nbsp
+      <br /><br />饲养：较好养&nbsp&nbsp
+      价格：2000-8000元&nbsp&nbsp功能：护卫犬<br /><br />
+      掉毛：易掉毛&nbsp&nbsp爱叫：适中&nbsp&nbsp干净：爱干净&nbsp&nbsp
+      训练：中等强度&nbsp&nbsp综合：较高
 
     </p>
   </body>

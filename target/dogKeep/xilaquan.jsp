@@ -7,7 +7,7 @@
 </head>
   <body background="img/dogintroduction/背景图.jpg">
     <div class="nav">
-  <ul>
+  <ul style="text-align: center">
   <li><a href="firstpage.jsp">首页</a></li>
   <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
   <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
@@ -27,11 +27,11 @@
 	 他敏锐的嗅觉使他能远远超越其他品种。注意：由于他是一种猎犬，疤痕是光荣的象征，不被作为缺陷。</span></h2>
 	  </h1>
   </div>
-<p>姓名：腊肠犬&nbsp原产地：德国&nbsp
-寿命：12-14年&nbsp <br><br>饲养：好养&nbsp
-价格：1300-12800元&nbsp功能：伴侣犬<br><br>
-掉毛：适中爱叫：多频次干净：较干净
-训练：中等强度综合：适中
+<p>姓名：腊肠犬&nbsp&nbsp原产地：德国&nbsp&nbsp
+寿命：12-14年&nbsp&nbsp<br><br>饲养：好养&nbsp&nbsp
+价格：1300-12800元&nbsp&nbsp功能：伴侣犬<br><br>
+掉毛：适中&nbsp&nbsp爱叫：多频次&nbsp&nbsp干净：较干净&nbsp&nbsp
+训练：中等强度&nbsp&nbsp综合：适中
 </p>
    
   </body>

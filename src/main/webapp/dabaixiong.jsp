@@ -21,7 +21,7 @@
     </div>
     <div>
       <h1>
-        <img src="D:/狗狗护理/狗狗介绍/大白熊.jpg" align="left" width="25%" />
+        <img src="img/dogintroduction/大白熊.jpg" align="left" width="25%" />
         <p>大白熊<br /></p>
         <h2>
           <span

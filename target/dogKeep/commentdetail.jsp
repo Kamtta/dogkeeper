@@ -26,7 +26,7 @@
 </div>
 <div id="question-content"><h2><%=(new UserCommentDaoImpl()).findContentById(Integer.valueOf(request.getParameter("commentid")))%></h2></div>
 <br>
-<table>
+<table style="border-spacing: 20px;border-collapse: separate;width: 100%;height: auto">
     <tbody id="data-content" class="th-style" style="color: black;font-family: SimSun;
     font-size: 20px;padding: 20px;margin: 20px">
 

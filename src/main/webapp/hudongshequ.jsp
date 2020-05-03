@@ -20,7 +20,7 @@
     <div>
         <img src="img/dog/狗狗1.jpg" width="100%">
     </div>
-    <div style="text-align: right">
+    <div style="text-align: right;margin: 20px">
         <button type="button" class="btn btn-outline-success" onclick="firstpage()">返回主页面</button>
     </div>
     <form role="form" action="insertQuestion.comment">
@@ -28,11 +28,11 @@
             <label>请输入你的问题：</label>
             <textarea id="content" name="content" class="form-control" rows="3"></textarea>
         </div>
-        <div style="text-align: right">
+        <div style="text-align: right;margin: 20px">
             <button type="submit" class="btn btn-outline-success">提交</button>
         </div>
     </form>
-    <table>
+    <table style="border-spacing: 20px;border-collapse: separate;width: 100%;height: auto">
         <tbody id="data-content" class="th-style">
 
         </tbody>
@@ -44,6 +44,19 @@
         <button type="button" class="btn btn-success" onclick="pre()">上一页</button>&nbsp&nbsp&nbsp&nbsp
         <button type="button" class="btn btn-success" onclick="next()">下一页</button>
     </p>
+    <div style="background-color: #2c2c2c;">
+        <table  style='font-size: 20px;font-family: SimSun;line-height:1em;width: 100%;height: auto;border-spacing: 30px;border-collapse: separate'>
+            <tr>
+                <td><a href="feiqiu.jsp" style="text-decoration: none;color: #aaa">狗狗的团队竞技比赛，飞球运动你听说过吗？看看哪家的狗狗更厉害</a></td>
+            </tr>
+            <tr>
+                <td><a href="modelcompetition.jsp" style="text-decoration: none;color: #aaa">各种狗狗争奇斗艳：2020广州第一届宠物模特大赛</a></td>
+            </tr>
+            <tr>
+                <td><a href="uglycompetition.jsp" style="text-decoration: none;color: #aaa">世界最丑狗狗大赛</a></td>
+            </tr>
+        </table>
+    </div>
     <script>
         $(function () {
             fun(1)

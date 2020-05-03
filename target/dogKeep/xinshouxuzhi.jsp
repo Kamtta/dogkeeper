@@ -26,7 +26,7 @@
  <img src="img/dog/狗狗8.jpg"  width="25%">
  <p style="color: #2c2c2c;font-size: 25px;font-family: SimSun;line-height: 2em">
 <a href="yanggougouqian.jsp">养狗前的准备</a><br>
- 1、环境的消毒。<br>2、狗狗用品的准备。<br><br><br><br>
+ 1、环境的消毒。<br>2、狗狗用品的准备。<br>3、确认小区情况。<br><br><br><br>
  
 <img src="img/dog/狗狗5.jpg"  width="15%">
 <a href="gougoubaohuijiahou.jsp">狗狗抱回家后</a><br>

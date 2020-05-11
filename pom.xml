@@ -27,6 +27,21 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.github.pagehelper</groupId>
+      <artifactId>pagehelper</artifactId>
+      <version>4.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.miemiedev</groupId>
+      <artifactId>mybatis-paginator</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.jsqlparser</groupId>
+      <artifactId>jsqlparser</artifactId>
+      <version>0.9.4</version>
+    </dependency>
     <!--spring core-->
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
     <dependency>
@@ -87,7 +102,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
-      <version>1.1.9</version>
+      <version>1.1.12</version>
     </dependency>
 
     <!--mybatis-spring jar包-->
@@ -192,6 +207,33 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
+        <plugin>
+          <groupId>org.mybatis.generator</groupId>
+          <artifactId>mybatis-generator-maven-plugin</artifactId>
+          <version>1.3.6</version>
+          <configuration>
+            <verbose>true</verbose>
+            <overwrite>true</overwrite>
+          </configuration>
+        </plugin>
+<!--        <plugin>-->
+<!--          <groupId>org.mybatis.generator</groupId>-->
+<!--          <artifactId>mybatis-generator-maven-plugin</artifactId>-->
+<!--          <version>1.3.4</version>-->
+<!--          <configuration>-->
+<!--            <configurationFile>${basedir}/src/main/resources/mybatis-generator.xml</configurationFile>-->
+<!--            <overwrite>true</overwrite>-->
+<!--            <verbose>true</verbose>-->
+<!--          </configuration>-->
+<!--          <dependencies>-->
+<!--            <dependency>-->
+<!--              <groupId>mysql</groupId>-->
+<!--              <artifactId>mysql-connector-java</artifactId>-->
+<!--              <version>5.1.46</version>-->
+<!--            </dependency>-->
+<!--            &lt;!&ndash; mapper 不推荐使用 &ndash;&gt;-->
+<!--          </dependencies>-->
+<!--        </plugin>-->
       </plugins>
     </pluginManagement>
   </build>

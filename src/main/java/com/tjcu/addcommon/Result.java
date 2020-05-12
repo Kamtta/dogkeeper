@@ -1,5 +1,8 @@
 package com.tjcu.addcommon;
 
+/**
+ * @author lt
+ */
 public class Result {
     public Result() {
     }

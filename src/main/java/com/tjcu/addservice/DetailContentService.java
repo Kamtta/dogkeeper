@@ -1,6 +1,6 @@
-package com.tjcu.a_service;
+package com.tjcu.addservice;
 
-import com.tjcu.a_common.ResultMessage;
+import com.tjcu.addcommon.ResultMessage;
 
 /**
  * @author 12749

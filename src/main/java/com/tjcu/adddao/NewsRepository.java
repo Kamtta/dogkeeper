@@ -1,4 +1,4 @@
-package com.tjcu.a_dao;
+package com.tjcu.adddao;
 
 import com.tjcu.bean.News;
 import com.tjcu.bean.NewsExample;

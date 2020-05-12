@@ -93,7 +93,7 @@
     </bean>
     <!-- 配置mybatis Dao接口的代理实现类 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.tjcu.a_dao"/>
+        <property name="basePackage" value="com.tjcu.adddao"/>
         <property name="sqlSessionTemplateBeanName" value="sqlSession"/>
     </bean>
 </beans>

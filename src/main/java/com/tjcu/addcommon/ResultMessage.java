@@ -1,4 +1,4 @@
-package com.tjcu.a_common;
+package com.tjcu.addcommon;
 
 public class ResultMessage<T> {
 

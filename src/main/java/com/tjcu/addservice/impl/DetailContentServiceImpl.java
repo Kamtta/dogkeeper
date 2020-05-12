@@ -1,9 +1,9 @@
-package com.tjcu.a_service.impl;
+package com.tjcu.addservice.impl;
 
-import com.tjcu.a_common.Result;
-import com.tjcu.a_common.ResultMessage;
-import com.tjcu.a_dao.DetailContentRepository;
-import com.tjcu.a_service.DetailContentService;
+import com.tjcu.addcommon.Result;
+import com.tjcu.addcommon.ResultMessage;
+import com.tjcu.adddao.DetailContentRepository;
+import com.tjcu.addservice.DetailContentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

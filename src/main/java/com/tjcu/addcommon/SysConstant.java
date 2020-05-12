@@ -1,5 +1,8 @@
-package com.tjcu.a_common;
+package com.tjcu.addcommon;
 
+/**
+ * @author
+ */
 public class SysConstant {
 
     public static final String FAIL_CODE = "1";

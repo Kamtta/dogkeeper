@@ -1,4 +1,4 @@
-package com.tjcu.a_dao;
+package com.tjcu.adddao;
 
 import com.tjcu.bean.DetailContent;
 import com.tjcu.bean.DetailContentExample;

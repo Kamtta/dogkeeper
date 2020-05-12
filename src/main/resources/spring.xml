@@ -31,13 +31,13 @@
             location="classpath:db.properties"></context:property-placeholder>
     <!-- 配置数据源 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="username" value="${username}"></property>
-        <property name="password" value="${password}"></property>
-        <property name="driverClassName" value="${driver}"></property>
-        <property name="url" value="${url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="url" value="${jdbc.url}"></property>
 
         <!-- 初始化连接大小 -->
-        <property name="initialSize" value="0"></property>
+        <property name="initialSize" value="5"></property>
         <!-- 连接池最大使用连接数量 -->
         <property name="maxActive" value="20"></property>
         <!-- 连接池最小空闲 -->

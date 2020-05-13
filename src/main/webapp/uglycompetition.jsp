@@ -21,58 +21,59 @@
             width: 100%;
             height: 100%;
         }
-        .nav{
-            width:1350px;
-            height:50px;
-            background-color:deepskyblue;
 
-        }
-        .nav ul{width:100%;
-            list-style:none;
-            padding:0;
-            margin:0;
-            text-align: center;
-        }
-        .nav ul li{
-            float:left;
-
-        }
-        .nav ul li a{
-            display:inline-block;width:150px;height:50px;
-            text-align:center;line-height:50px;color:#ffffff;text-decoration:none;
-        }
-        .nav ul li a:hover{background-color:slateblue;
-        }
     </style>
 </head>
 <body>
-<div class="nav">
-    <ul style="text-align: center;">
-        <li><a href="firstpage.jsp">首页</a></li>
-        <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
-        <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
-        <li><a href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a></li>
-        <li><a href="gougouquwen.jsp">狗狗趣闻</a></li>
-        <li><a href="gougouyongpinjieshao.jsp">狗狗用品介绍</a></li>
-        <li><a href="gougoumengzhao.jsp">狗狗萌照</a></li>
-        <li><a href="xinshouxuzhi.jsp">新手需知</a></li>
-        <li><a href="hudongshequ.jsp">互动社区</a></li>
-    </ul>
-</div>
-
-<div id="demo" class="carousel slide" data-ride="carousel" style="width: 55%;height: 350px;margin-left: 280px;margin-top: 20px">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="firstpage.jsp">DOGKEEP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="gougourichnaghuli.jsp">狗狗日常护理</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gougourichangxunlian.jsp">狗狗日常训练</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gougouquwen.jsp">狗狗趣闻</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hudongshequ.jsp">互动社区</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div style="margin-top: 70px;margin-bottom: 60px">
+<h5 style="font-family: SimSun;line-height: 2em;font-size: 30px;font-weight: bold;text-align:center;">世界最丑狗狗大赛:参赛竟然还要有“自然丑”证明!</h5>
+<div id="demo" class="carousel slide" data-ride="carousel" style="width: 55%;height:400px;margin-left: 280px;margin-top: 40px">
 
     <!-- 指示符 -->
     <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="1"class="active"></li>
+        <li data-target="#demo" data-slide-to="2"class="active"></li>
     </ul>
 
     <!-- 轮播图片 -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/ugly/1.jpg">
+            <img src="img/ugly/1.jpg"  width="1000px" height="400px">
+        </div>
+        <div class="carousel-item ">
+            <img src="img/ugly/2.jpg" width="1000px" height="400px" >
+        </div>
+        <div class="carousel-item ">
+            <img src="img/ugly/3.jpg" width="1000px" height="400px">
+        </div>
+        <div class="carousel-item ">
+            <img src="img/ugly/4.jpg" width="1000px" height="400px">
         </div>
     </div>
 
@@ -85,10 +86,15 @@
     </a>
 
 </div>
-<h5 style="font-family: SimSun;line-height: 2em;font-size: 30px;font-weight: bold;">世界最丑狗狗大赛</h5>
-<div style="font-size: 20px;font-family: SimSun;line-height: 1.5em">
-    &nbsp&nbsp6月23日报道，当地时间6月21日，美国佩塔卢马，世界最丑狗大赛在当地举行。“世界最丑狗大赛”，每年6月的第四个星期在美国加利福尼亚州举行。
-    到今年为止，已经举行了31届，参赛的狗狗多是主人从救助站领养回来的，评委会按照狗狗的性格、外貌和观众投票综合评分，但最重要的是，狗狗必须是“天然丑”。今年的冠军叫“流氓小子”，它为自己和主人赢得了奖杯和1500美金。该赛事旨在鼓励大家领养流浪狗。
+
+<div style="font-size: 20px;font-family: SimSun;line-height: 1.5em;width:800px;margin-left:230px;margin-top:10px;">
+    &nbsp&nbsp比赛时间：美国6月23日，当地时间6月21日<br>
+    &nbsp&nbsp美国佩塔卢马，世界最丑狗大赛在当地举行。“世界最丑狗大赛”，每年6月的第四个星期在美国加利福尼亚州举行。<br>
+    &nbsp&nbsp到2019年为止，已经举行了31届，参赛的狗狗多是主人从救助站领养回来的，评委会按照狗狗的性格、外貌和观众投票综合评分，但最重要的是，狗狗必须是“天然丑”。而且参赛者必须有兽医开具的“自然丑”证明，没有证明是不允许参赛的。
+    2019年的冠军叫“流氓小子”，它为自己和主人赢得了奖杯和1500美金。该赛事旨在鼓励大家领养流浪狗。<br>
+    &nbsp&nbsp“世界最丑犬大赛”相当于是一种幽默的调剂，为世界增添正能量，这些不嫌弃自家狗狗样子丑陋的主人们，使这个比赛充满了温馨的气氛。
 </div>
+</div>
+
 </body>
 </html>

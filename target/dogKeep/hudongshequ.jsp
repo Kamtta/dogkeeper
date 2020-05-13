@@ -45,7 +45,7 @@
         <button type="button" class="btn btn-success" onclick="next()">下一页</button>
     </p>
     <div style="background-color: #2c2c2c;">
-        <table  style='font-size: 20px;font-family: SimSun;line-height:1em;width: 100%;height: auto;border-spacing: 30px;border-collapse: separate'>
+        <table  style='font-size: 20px;font-family: SimSun;line-height:0.5em;width: 100%;height: auto;border-spacing: 20px;border-collapse: separate'>
             <tr>
                 <td><a href="feiqiu.jsp" style="text-decoration: none;color: #aaa">狗狗的团队竞技比赛，飞球运动你听说过吗？看看哪家的狗狗更厉害</a></td>
             </tr>
@@ -87,7 +87,7 @@
                     var str = "";
                     console.log(result)
                     $(result.content).each(function () {
-                        str += "<tr><td><a style='font-size: 20px;font-family: SimSun;line-height: 1em;text-decoration: none;color: #1b1e21;' href=\"commentdetail.jsp?commentid="+this.commentid+"\">" +this.content+
+                        str += "<tr><td><a style='font-size: 20px;font-family: SimSun;line-height: 0.5em;text-decoration: none;color: #1b1e21;' href=\"commentdetail.jsp?commentid="+this.commentid+"\">" +this.content+
                             "</a></td></tr>"
                     })
                     $("#data-content").html(str);

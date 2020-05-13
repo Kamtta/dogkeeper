@@ -3,117 +3,131 @@
 <head>
   <meta charset="utf-8">
   <title>狗狗疾病救治</title>
-<link type="text/css" rel="stylesheet" href="css/gougoujibingjiuzhi.css"/>
+	<link type="text/css" rel="stylesheet" href="css/gougoujibingjiuzhi.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/stylenew.css">
+	<script type="text/javascript" language="JavaScript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+<link type="text/css" rel="stylesheet" href="css/style1.css"/>
 </head>
   
- <body background="img/dogintroduction/背景图.jpg">
- 
-  <div class="nav">
-  <ul>
-  <li><a href="firstpage.jsp">首页</a></li>
-  <li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
-  <li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
-  <li><a href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a></li>
-   <li><a href="gougouquwen.jsp">狗狗趣闻</a></li>
-   <li><a href="gougouyongpinjieshao.jsp">狗狗用品介绍</a></li>
-  <li><a href="gougoumengzhao.jsp">狗狗萌照</a></li>
-  <li><a href="xinshouxuzhi.jsp">新手需知</a></li>
-   <li><a href="hudongshequ.jsp">互动社区</a></li>
-  </ul>
-  </div>
-   <h1><img src="img/dog/狗狗疾病救治.jpg"  width="20%">
-  <p>狗狗疾病及时救治的重要性：</p>
- <span style="font-size:20px;font-family:SimSun;line-height: 2em">
-狗狗的寿命大多为10年左右，我们应细致的观察狗狗的每个举动、身体的每个部位。因为狗狗对疾病、疼痛的忍耐力比人要大的多，
-因此，如果你发现爱犬有明显的异常反应，证明他们需要及时救治，也许就是几分钟的耽搁就失去了自己的爱犬。
+ <body>
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+	 <a class="navbar-brand" href="firstpage.jsp">DOGKEEP</a>
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		 <span class="navbar-toggler-icon"></span>
+	 </button>
+	 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		 <ul class="navbar-nav">
+			 <li class="nav-item">
+				 <a class="nav-link" href="gougourichnaghuli.jsp">狗狗日常护理</a>
+			 </li>
+			 <li class="nav-item">
+				 <a class="nav-link" href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a>
+			 </li>
+			 <li class="nav-item">
+				 <a class="nav-link" href="gougourichangxunlian.jsp">狗狗日常训练</a>
+			 </li>
+			 <li class="nav-item">
+				 <a class="nav-link" href="gougouquwen.jsp">狗狗趣闻</a>
+			 </li>
+			 <li class="nav-item">
+				 <a class="nav-link" href="hudongshequ.jsp">互动社区</a>
+			 </li>
+		 </ul>
+	 </div>
+ </nav>
+ <p style="text-align:center;">
+	 <img src="img/dog/狗狗21.jpg" height="400px" width="900px" >
+ </p>
+ <h1 style="text-align:center;display: block;font-size: 2.5em;margin-block-start: 0.67em;font-weight: bold;margin-bottom: 30px;margin-inline-start: 0px;margin-inline-end: 0px;">让我们一同呵护照顾我们的狗狗！</h1>
 
-</span></h1>
-
-<h2 style="font-size:20px;font-family:SimSun;line-height: 2em">
-  <p>常见的几种症状：</p>
-  <span>
-  <img src="img/dog/腹泻2.jpg"  width="10%">
- <a href="fuxie.jsp">一、腹泻</a><br>
- 
-<img src="img/dog/狗狗疾病1.jpg"  width="10%">
- <a href="outu.jsp">二、呕吐</a><br>
-
-<img src="img/dog/狗狗疾病2.jpg"  width="10%">
-<a href="ganmao.jsp">三、感冒</a><br>
+ <div class="wrap chongwu_list">
 
 
-<img src="img/dog/狗狗疾病3.jpg"  width="10%"><br>
-<a href="kesou.jsp">四、咳嗽</a><br><br>
+	 <div class="list_item">
+		 <a href="fuxie.jsp" class="list_img"><img src="img/dog/腹泻.jpg" alt="腹泻的救治方法"></a>
+		 <div>
+			 <h3><a href="fuxie.jsp">腹泻的救治方法</a></h3>
+			 <p class="cnt">
+				 原因：1：感冒:着凉了或者感冒了都会导致狗狗拉稀。请注意保持室温，注意给狗狗保暖。<br>
+				 2：吃的过饱:尤其为大型犬，吃的过多狗狗没有消化也会产生拉稀呕吐的情况。...
+			 </p>
+		 </div>
+		 <p class="view">
+			 <a href="fuxie.jsp"><span class="f_right">更多>></span></a>
+		 </p>
+	 </div><div class="list_item">
+	 <a href="outu.jsp" class="list_img"><img src="img/dog/呕吐.jpg" alt="呕吐的救治方法"></a>
+	 <div>
+		 <h3><a href="outu.jsp">呕吐的救治方法</a></h3>
+		 <p class="cnt">
+			 1、吐的是完全没有消化的食物<br>
+			 原因：狗狗吃东西是不好好嚼，直接就吞下去了，或者它吃得太多。或是刚吃完...
+	 </div>
+	 <p class="view">
+		 <a href="outu.jsp"><span class="f_right">更多>></span></a>
+	 </p>
+ </div><div class="list_item">
+	 <a href="ganmao.jsp" class="list_img"><img src="img/dog/感冒.jpg" alt="感冒的救治方法"></a>
+	 <div>
+		 <h3><a href="ganmao.jsp">感冒的救治方法</a></h3>
+		 <p class="cnt">
+			 症状：精神不好，打蔫，喜欢趴着;有流水样的鼻涕，打喷嚏和咳嗽;眼结膜充血,流泪，<br>
+			 食欲不振;体温升高，一般为39-40℃。...
 
-<img src="img/dog/狗狗疾病4.jpg"  width="10%">
-<a href="erman.jsp">五、耳螨</a><br>
+		 </p>
+	 </div>
+	 <p class="view">
+		 <a href="ganmao.jsp"><span class="f_right">更多>></span></a>
+	 </p>
+ </div>
+ </div><div class="list_item">
+	 <a href="erman.jsp" class="list_img"><img src="img/dog/耳螨.jpg" alt="耳螨的救治方法"></a>
+	 <div>
+		 <h3><a href="erman.jsp" >耳螨的救治方法</a></h3>
+		 <p class="cnt">
+			 症状：狗狗的耳朵、耳洞，是否有一些棕黑色的油性物质，肉眼看似片状，而且狗狗经常<br>
+			 挠头和耳朵，且有外耳道红肿发炎，甚至臭味发出而且会出现泪痕。...
+		 </p>
+	 </div>
+	 <p class="view">
+		 <a href="erman.jsp" ><span class="f_right">更多>></span></a>
+	 </p>
+ </div>
+ <div class="list_item">
+	 <a href="pifubing.jsp" class="list_img"><img src="img/dog/皮肤病.jpg" alt="皮肤病的救治方法"></a>
+	 <div>
+		 <h3><a href="pifubing.jsp">皮肤病的救治方法</a></h3>
+		 <p class="cnt">
+			 原因：外源性皮肤病多是由气候变化(温度、湿度)、体外寄生虫、病原体传染(真菌、疥螨<br>
+			 等)、物理原因(外伤、剪毛、不合理注射)、化学原因(外用药、化学原料)等。...
+		 </p>
+	 </div>
+	 <p class="view">
+		 <a href="pifubing.jsp"><span class="f_right">更多>></span></a>
+	 </p>
+ </div>
+ <div class="list_item">
+	 <a href="changweiyan.jsp" class="list_img"><img src="img/dog/胃肠炎.jpg" alt="胃肠炎的救治方法"></a>
+	 <div>
+		 <h3><a href="changweiyan.jsp">胃肠炎的救治方法</a></h3>
+		 <p class="cnt">
+			 症状：呕吐、腹泻、食欲不振以及精神沉郁为主。<br>
+			 原因：首先考虑食物刺激，比如暴饮暴食、不科学的换粮等；...
+		 </p>
+	 </div>
+	 <p class="view">
+		 <a href="changweiyan.jsp"><span class="f_right">更多>></span></a>
+	 </p>
+ </div>
 
-<img src="img/dog/狗狗疾病5.jpg"  width="10%">
-<a href="pifubing.jsp">六、皮肤病</a><br>
+ </div>
+ <div class="i_t mar_10">
+ </div>
+ <p style="height: 58px;line-height: 26px; padding: 16px 0 0;text-align: center"><a href="http://www.12377.cn/" target="_blank">中国互联网举报中心</a> 举报邮箱：7-8-382168@qq.com 违法和不良信息举报电话：12377<br>Copyrights  2020 狗狗护理  All rights reserved.</p>
 
-<img src="img/dog/狗狗疾病6.jpg"  width="10%">
-<a href="weichangyan.jsp">七、胃肠炎</a><br>
-
-<img src="img/dog/狗狗疾病7.jpg"  width="10%">
-<a href="changbianmi.jsp">八、肠便秘</a><br><br><br><br>
-</span>
-</h2>
-<h3>
- <p>其他疾病：</p>
- <img src="img/dog/狗狗晕车.jpg"  width="16%">
- <span>
-<a href="yunche.jsp">一、狗狗晕车怎么办？</a><br><br>
-<img src="img/dog/厌食.jpg"  width="16%">
-<a href="yanshi.jsp">二、狗狗厌食怎么办？</a><br><br>
-<img src="img/dog/中暑.jpg"  width="16%">
-<a href="zhongshu.jsp">三、狗狗中暑后怎么办？</a><br>
-
- </span></h3>
-</body>
-<div class="footer">
-	<div class="f_ct">
-		<div class="f_ul ul_r">
-			<a href="firstpage.jsp"><h3>狗狗种类</h3></a>
-			<ul class="ul_w1">
-				<li><a href="kejiquan.jsp">柯基犬</a></li>
-				<li><a href="dubinquan.jsp">杜宾犬</a></li>
-				<li><a href="bomeiquan.jsp">博美犬</a></li>
-				<li><a href="jinmaoquan.jsp">金毛犬</a></li>
-			</ul>
-		</div>
-		
-		<div class="f_ul ul_r">
-			<a href="gougourichnaghuli.jsp"><h3>狗狗日常护理</h3></a>
-			<ul class="ul_w2">
-				<li><a href="qidarichanghuli.jsp">七大日常护理</a></li>
-				<li><a href="changmaoquanxizaofangfa.jsp">长毛犬洗澡方法</a></li>
-				<li><a href="changmaoquanmafaxiulifangfa.jsp">长毛犬毛发梳理方法</a></li>
-				<li><a href="changmaoquanxiumaofangfa.jsp">长毛犬修毛方法</a></li>
-			</ul>
-		</div>
-
-		<div class="f_ul ul_r">
-			<a href="狗狗疾病救治"><h3>狗狗疾病救治</h3></a>
-			<ul class="ul_w3">
-				<li><a href="fuxie.jsp">腹泻</a></li>
-				<li><a href="ganmao.jsp">感冒</a></li>
-				<li><a href="pifubing.jsp">皮肤病</a></li>
-				<li><a href="changbianmi.jsp">肠便秘</li>
-				              
-			</ul>
-		</div>
-		<div class="f_ul ul_r">
-			<a href="狗狗趣闻"><h3>狗狗趣闻</h3></a>
-			<ul class="ul_w3">
-				<li><a href="lvai.jsp">狗狗救主人</a></li>
-				<li><a href="qinglvjiudian.jsp">狗狗情侣酒店</a></li>
-				<li><a href="huozhonghumao.jsp">火中护猫</a></li>
-				<li><a href="taiguohuangguan.jsp">属于狗狗的皇冠</li>
-				              
-			</ul>
-		</div>
-	</div>
-
-	<p style="height: 58px;line-height: 26px; padding: 16px 0 0;"><a href="http://www.12377.cn/" target="_blank">中国互联网举报中心</a> 举报邮箱：1945237885@qq.com 违法和不良信息举报电话：12377<br></p>
-</div>
+ </body>
 </html>

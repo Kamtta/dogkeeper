@@ -3,180 +3,132 @@
 
 <head>
   <meta charset="utf-8">
-  <title>首页</title>
-  <link type="text/css" rel="stylesheet" href="css/shouye.css" />
+  <title>狗狗护理</title>
+<%--  <link type="text/css" rel="stylesheet" href="css/shouye.css" />--%>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/stylenew.css">
+  <script type="text/javascript" language="JavaScript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 
-<body background="img/dogintroduction/背景图.jpg">
-  <div>
-    <img src="img/dog/狗狗1.jpg" width="100%">
-    <h1>我们的忠实朋友!</h1>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="firstpage.jsp">DOGKEEP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="gougourichnaghuli.jsp">狗狗日常护理</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gougourichangxunlian.jsp">狗狗日常训练</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gougouquwen.jsp">狗狗趣闻</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hudongshequ.jsp">互动社区</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br/><br/>
+<div class="row" style="margin-top: 5px">
+    <div class="col-3">
+        <div class="container" style="padding: 15px;margin-top: 20px;height: 350px;border:1px solid #d9d9d9;margin-left: 15px;margin-right: 15px">
+            <h3 style="text-align: center">狗狗分类</h3>
+            <br/>
+            <div class="list-group" style="size: 30px">
+                <a href="duanmaoxiaoxingquan.jsp" class="list-group-item list-group-item-action">短毛小型犬</a>
+                <a href="duanmaodaxingquan.jsp" class="list-group-item list-group-item-action">短毛大型犬</a>
+                <a href="changmaoxiaoxingquan.jsp" class="list-group-item list-group-item-action">长毛小型犬</a>
+                <a href="changmaodaxingquan.jsp" class="list-group-item list-group-item-action">长毛大型犬</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6" style="height: 350px">
 
-  </div>
-  <div class="nav">
-    <ul>
-      <li style="text-align: center;"><a href="firstpage.jsp">首页</a></li>
-      <li style="text-align: center;"><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
-      <li style="text-align: center;"><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
-      <li style="text-align: center;"><a href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a></li>
-      <li style="text-align: center;"><a href="gougouquwen.jsp">狗狗趣闻</a></li>
-      <li style="text-align: center;"><a href="gougouyongpinjieshao.jsp">狗狗用品介绍</a></li>
-      <li style="text-align: center;"><a href="gougoumengzhao.jsp">狗狗萌照</a></li>
-      <li style="text-align: center;"><a href="xinshouxuzhi.jsp">新手需知</a></li>
-      <li style="text-align: center;"><a href="hudongshequ.jsp">互动社区</a></li>
-    </ul>
-  </div>
+        <div id="demo" class="carousel slide" data-ride="carousel" style="margin-top: 20px">
 
-  <div style="margin-top:50px;">
-    <h2><img src="img/dog/狗狗2.jpg" align="center">
-      <span>短毛小型犬：<a href="kejiquan.jsp">柯基犬</a>&nbsp&nbsp<a href="bagequan.jsp">巴哥犬</a>&nbsp&nbsp<a href="xiaomilu.jsp">小鹿犬</a>&nbsp&nbsp
-        <a href="xilaquan.jsp">腊肠犬</a>&nbsp&nbsp<a href="bigequan.jsp">比格犬</a>&nbsp&nbsp<a href="hudiequan.jsp">蝴蝶犬</a>&nbsp&nbsp
-        <a href="guwawa.jsp">吉娃娃</a>&nbsp&nbsp<a href="chabeiquan.jsp">茶杯犬</a> &nbsp&nbsp<a href=" maquan.jsp"> 马犬</a>&nbsp&nbsp
-        <a href=" faguodouniuquan.jsp"> 法国斗牛犬</a> </span>
-    </h2>
-  </div>
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- 轮播图片 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/dog/狗狗21.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dog/狗狗5.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dog/狗狗20.jpg">
+                </div>
+            </div>
+
+            <!-- 左右切换按钮 -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+    </div>
+    <div class="col-3">
+        <div class="inews" style="margin-top: 20px;margin-right: 15px;height: 350px">
+            <div class="news_t">
+                <span class="fr">更多</span>新闻资讯
+            </div>
+            <ul>
+                <li><span><a href="feiqiu.jsp">[ 飞球比赛] </a></span>看看哪家狗狗更厉害</li>
+                <li><span><a href="modelcompetition.jsp">[ 模特大赛 ]</a></span>各种狗狗的争奇斗艳</li>
+                <li><span><a href="uglycompetition.jsp">[ 比丑大赛 ]</a></span>"天然丑”的狗狗</li>
+
+            </ul>
+            <div class="news_t">
+                <span class="fr"><a href="hudongshequ.jsp">更多 </a></span>互动社区
+            </div>
+            <ul>
+                <li>留下你的问题</li>
+                <li>带走大家的建议</li>
+            </ul>
+        </div>
+    </div></div>
+   <div class="i_t mar_10">
+
+    </div>
+    <div style="display: flex;justify-content: space-around;">
+        <a href="gougoujibingjiuzhi.jsp"><div style="border:1px solid;box-shadow: 2px 4px 4px;height: 360px;width: 300px;float: left;margin-top: 30px;text-align: center;font-size: 30px;"><img src="img/dog/狗狗疾病1.jpg" style="border-radius: 50%;box-shadow: 2px 4px 4px;height: 300px;width: 300px;margin-bottom: 10px" title="狗狗疾病救治"/>狗狗疾病救治</div></a>
+        <a href="gougourichangxunlian.jsp"><div style="border:1px solid;box-shadow: 2px 4px 4px;height: 360px;width: 300px;float: left;margin-top: 30px;text-align: center;font-size: 30px;"><img src="img/dog/训练7.jpg" style="border-radius: 50%;box-shadow: 2px 4px 4px;height: 300px;width: 300px;margin-bottom: 10px" title="狗狗日常训练"/>狗狗日常训练</div></a>
+        <a href="gougouquwen.jsp"><div style="border:1px solid;box-shadow: 2px 4px 4px;height: 360px;width: 300px;float: left;margin-top: 30px;text-align: center;font-size: 30px;"><img src="img/dog/训练8.jpg" style="border-radius: 50%;box-shadow: 2px 4px 4px;height: 300px;width: 300px;margin-bottom: 10px" title="狗狗趣闻"/>狗狗趣闻</div></a>
+    </div>
 
 
-  <div>
-    <h2><img src="img/dog/狗狗3.jpg" align="center">
-      <span>短毛大型犬：<a href="dubinquan.jsp">杜宾犬</a>&nbsp&nbsp <a href="luoweiquan.jsp">罗威纳犬</a>&nbsp&nbsp<a href="dadanquan.jsp">大丹犬</a>&nbsp&nbsp
-        <a href="qiutianquan.jsp">秋田犬</a>&nbsp&nbsp<a href="alasijia.jsp">阿拉斯加犬</a>&nbsp&nbsp<a href="deguomuyangquan.jsp">德国牧羊犬
-        </a>&nbsp&nbsp
-         <a href="boerduoquan.jsp">波尔多犬</a>&nbsp&nbsp <a href="douniuaoquan.jsp">斗牛獒犬</a> </span>
-    </h2>
-  </div>
+    <div class="i_t mar_10">
+    </div>
+	<p style="height: 58px;line-height: 26px; padding: 16px 0 0;text-align: center"><a href="http://www.12377.cn/" target="_blank">中国互联网举报中心</a> 举报邮箱：7-8-382168@qq.com 违法和不良信息举报电话：12377<br>Copyrights  2020 狗狗护理  All rights reserved.</p>
 
-  <div>
-    <h2><img src="img/dog/狗狗4.jpg" align="center">
-      <span>长毛小型犬： <a href="bomeiquan.jsp">博美犬</a> &nbsp&nbsp<a href="bixiongquan.jsp">比熊犬</a> &nbsp&nbsp<a href=" xunarui.jsp">
-          雪纳瑞</a>
-         <a href="yuekexiaquan.jsp">约克夏犬</a>&nbsp&nbsp<a href="maerjisiquan.jsp">马尔济斯犬</a></span>
-    </h2>
-  </div>
-
-  <div>
-    <h2><img src="img/dog/狗狗5.jpg" align="center">
-      <span>长毛大型犬： <a href="jinmaoquan.jsp">金毛犬</a>&nbsp&nbsp <a href="bijiasuoquan.jsp">高加索犬</a> &nbsp&nbsp<a href="zangao.jsp">藏獒</a>&nbsp&nbsp
-         <a href="gudaimuyangquan.jsp">古代牧羊犬</a>&nbsp&nbsp <a href="dabaixiong.jsp">大白熊</a></span>
-    </h2>
-  </div>
-  <h4>
-    <p>训练狗狗定点排便视频讲解：</p>
-    <iframe height=300 width=400 src='https://player.youku.com/embed/XMzYwOTY3MzM5Mg=='
-      frameborder=0 allowfullscreen="true"></iframe><br>
-    <p><a href="gougoumengzhao.jsp">狗狗萌照</a></p>
-    <table>
-      <tr>
-        <td><img src="img/cutedog/狗狗2.jpg" width="100%"> </td>
-        <td><img src="img/cutedog/狗狗3.jpg" width="100%">
-        <td>
-          <img src="img/cutedog/狗狗5.jpg" width="60%">
-          <img src="img/cutedog/狗狗6.jpg" width="60%">
-    </table>
-    <p><a href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a></p>
-    <span>狗狗感冒怎么办？<br><br>
-      <img src="img/dog/狗狗疾病2.jpg" width="30%"><br><br><br>
-
-      症状：精神不好，打蔫，喜欢趴着;有流水样的鼻涕，打喷嚏和咳嗽;眼结膜充血，流泪，食欲不振;体温升高，一般为39-40℃。<br>
-      原因：受凉，多见于洗澡后，天气变化，长期吹空调;病毒感染;被传染感冒病毒。<br>
-      基本处理原则：抗病毒滴剂、紫雏菊花粉、免疫多糖膏、抗病毒冲剂、板蓝根;促进血液循环，保暖，热敷肚子。若不见好转，及时就医。<br><br>
-
-      <p><a href="xinshouxuzhi.jsp">新手需知</a></p>
-      <span>推荐适合初养的狗狗：<br>
-        泰迪：比较喜欢和人类玩耍，而且非常的忠实。<br>
-        法国斗牛犬:脾气在狗狗中也是非常有名的好，在家中也不会随意的吠叫。<br>
-        雪纳瑞:不爱掉毛，性格上也比较温顺，家中有老人小孩的话雪纳瑞能跟它们玩到一块。<br>
-        小鹿犬：体型比较小，而且他们的毛发也不需要过多的打理。<br>
-        约克夏：性格是非常温顺,不需要带到外面去散步，在家中散步也是可以的。<br>
-      </span>
-  </h4>
-  <h3>
-    <p><a href="gougourichangxunlian.jsp">狗狗日常训练</a></p>
-    狗狗定点排便:<br><br>
-    <img src="img/dog/狗狗11.jpg" align="center" width="11%">
-    <span>
-      一、训练时间。<br><br><br>
-      <img src="img/dog/狗狗22.jpg" width="11%">
-      二、了解狗狗厕所的位置。<br><br><br>
-      <img src="img/dog/狗狗8.jpg" width="11%">
-      三、掌握狗狗要排便的信号。</span><br><br><br><br><br>
-    <p><a href="gougouquwen.jsp">狗狗趣闻</a></p>
-    <span>  狗狗模仿女主人开车，样子很可爱动作很娴熟！<br><br>
-        <iframe frameborder="0" height=300 width=400
-        src="https://v.qq.com/txp/iframe/player.html?vid=a0879hho9ze" allowFullScreen="true"></iframe>
-    </span>
-
-    <p><a href="gougourichnaghuli.jsp">狗狗日常护理</a></p>
-    <span> 给狗狗刷牙<br>
-      &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <iframe frameborder="0" height="300" width="450"
-        src="https://v.qq.com/txp/iframe/player.html?vid=u0884yiptjj" allowFullScreen="true"></iframe><br>
-      &nbsp&nbsp&nbsp&nbsp1、用宠物专用牙刷，顺着牙齿的方向轻轻刷。<br>
-      &nbsp&nbsp&nbsp&nbsp2、刚开始狗狗比较抗拒，每次刷一下，进行一点食物奖励。<br>
-      &nbsp&nbsp&nbsp&nbsp3、选择适合性比较好的牙膏，选择狗狗喜欢的口味的牙膏。<br>
-
-      <p><a href="gougouyongpinjieshao.jsp">&nbsp&nbsp&nbsp&nbsp狗狗用品介绍</a></p>
-      <span>&nbsp&nbsp&nbsp&nbsp狗狗窝：狗狗睡觉、休息的地方。冬天用保暖型，夏天用有凉席型。
-        <img src="img/dog/狗狗窝.jpg" width="10%">
-        <img src="img/dog/狗狗窝1.jpg" width="13%">
-        <img src="img/dog/狗狗窝2.jpg" width="13%">
-        <img src="img/dog/狗狗窝3.jpg" width="10%"><br><br><br><br><br><br>
-
-      </span>
-  </h3>
 </body>
-<div class="footer">
-  <div class="f_ct">
-    <div class="f_ul ul_r">
-      <a href="firstpage.jsp">
-        <h3>狗狗种类</h3>
-      </a>
-      <ul class="ul_w1">
-        <li><a href="kejiquan.jsp">柯基犬</a></li>
-        <li><a href="dubinquan.jsp">杜宾犬</a></li>
-        <li><a href="bomeiquan.jsp">博美犬</a></li>
-        <li><a href="jinmaoquan.jsp">金毛犬</a></li>
-      </ul>
-    </div>
-
-    <div class="f_ul ul_r">
-      <a href="gougourichnaghuli.jsp">
-        <h3>狗狗日常护理</h3>
-      </a>
-      <ul class="ul_w2">
-        <li><a href="qidarichanghuli.jsp">七大日常护理</a></li>
-        <li><a href="changmaoquanxizaofangfa.jsp">长毛犬洗澡方法</a></li>
-        <li><a href="changmaoquanmafaxiulifangfa.jsp">长毛犬毛发梳理方法</a></li>
-        <li><a href="changmaoquanxiumaofangfa.jsp">长毛犬修毛方法</a></li>
-      </ul>
-    </div>
-
-    <div class="f_ul ul_r">
-      <a href="狗狗疾病救治">
-        <h3>狗狗疾病救治</h3>
-      </a>
-      <ul class="ul_w3">
-        <li><a href="fuxie.jsp">腹泻</a></li>
-        <li><a href="ganmao.jsp">感冒</a></li>
-        <li><a href="pifubing.jsp">皮肤病</a></li>
-        <li><a href="changbianmi.jsp">肠便秘</a></li>
-
-      </ul>
-    </div>
-    <div class="f_ul ul_r">
-      <a href="狗狗趣闻">
-        <h3>狗狗趣闻</h3>
-      </a>
-      <ul class="ul_w3">
-        <li><a href="lvai.jsp">狗狗救主人</a></li>
-        <li><a href="qinglvjiudian.jsp">狗狗情侣酒店</a></li>
-        <li><a href="huozhonghumao.jsp">火中护猫</a></li>
-        <li><a href="taiguohuangguan.jsp">属于狗狗的皇冠</a></li>
-
-      </ul>
-    </div>
-  </div>
-
-  <p style="height: 58px;line-height: 26px; padding: 16px 0 0;"><a href="http://www.12377.cn/"
-      target="_blank">中国互联网举报中心</a> 举报邮箱：1945237885@qq.com 违法和不良信息举报电话：12377<br></p>
-</div>
 </html>

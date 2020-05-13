@@ -1,149 +1,102 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8">
 	<title>狗狗日常护理</title>
-	<link type="text/css" rel="stylesheet" href="css/gougourichanghuli.css" />
+	<link type="text/css" rel="stylesheet" href="css/gougoujibingjiuzhi.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/stylenew.css">
+	<script type="text/javascript" language="JavaScript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/style1.css"/>
 </head>
 
-<body background="img/dogintroduction/背景图.jpg">
-<div class="nav">
-	<ul>
-		<li><a href="firstpage.jsp">首页</a></li>
-		<li><a href="gougourichangxunlian.jsp">狗狗日常训练</a></li>
-		<li><a href="gougourichnaghuli.jsp">狗狗日常护理</a></li>
-		<li><a href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a></li>
-		<li><a href="gougouquwen.jsp">狗狗趣闻</a></li>
-		<li><a href="gougouyongpinjieshao.jsp">狗狗用品介绍</a></li>
-		<li><a href="gougoumengzhao.jsp">狗狗萌照</a></li>
-		<li><a href="xinshouxuzhi.jsp">新手需知</a></li>
-		<li><a href="hudongshequ.jsp">互动社区</a></li>
-	</ul>
-</div>
-<h1 style="font-size:20px;font-family:SimSun;line-height: 2em;">
-	<img src="img/dog/狗狗16.jpg" height="40%" width="20%" />
-	<p>&nbsp&nbsp狗狗护理的好处：</p>
-	<span>
-        &nbsp&nbsp每天对狗进行护理加深主人与狗情感交流，可以在两者间建立起更好的信任关系。主人在进行这项工作时如果经常对狗喃喃细语，
-        就像父母呵护子女一样，一定会在两者间建立起密切的情感纽带。主人、狗都是一种享受。
-        此外，如查经常对狗的体毛和皮肤进行护理，也容易及时发现体毛有无异常，有没有皮肤伤病，不至于延误对狗的治疗。
-      </span>
-</h1>
-<h1 style="font-size:20px;font-family:SimSun;line-height: 2em;">
-	<p><a href="qidarichanghuli.jsp">&nbsp&nbsp七大日常护理：</a></p>
-	<span
-	><img src="img/dog/狗狗刷牙.jpg" align="center" width="8%" />
-        &nbsp&nbsp一、定时刷牙。<br />
-        <img src="img/dog/狗狗身体检查.jpg" align="center" width="10%" />
-        &nbsp&nbsp二、身体检查。<br />
-        <img src="img/dog/狗狗梳毛.jpg" align="center" width="8%" />
-        &nbsp&nbsp三、定期梳毛。<br />
-        <img src="img/dog/狗狗按摩.jpg" align="center" width="8%" />
-        &nbsp&nbsp四、按摩。<br /><br />
-        <img src="img/dog/狗狗喂食.jpg" align="center" width="10%" />
-        &nbsp&nbsp五、喂食定时定量。<br />
-        <img src="img/dog/狗狗盐分.jpg" align="center" width="8%" />
-        &nbsp&nbsp六、控制盐分摄入。<br />
-        <img src="img/dog/狗狗部位护理.jpg" align="center" width="10%" />
-        &nbsp&nbsp七、身体部位护理。<br /><br />
-      </span>
-</h1>
-
-<h2>
-	<img src="img/dog/长毛犬毛发梳理.jpg" width="18%" />
-	<p>
-		<a href="changmaoquanmafaxiulifangfa.jsp"
-		>&nbsp&nbsp长毛犬毛发梳理方法：</a
-		>
-	</p>
-	<span>
-        &nbsp&nbsp对于长毛犬来讲，那一身的浓密毛发能够很好的保护身体。但也需要主人经常为其梳理，否则打结成团可是分分钟的事情。<br />
-      </span>
-</h2>
-<h3>
-	<img src="img/dog/短毛犬毛发梳理.jpg" width="18%" />
-	<p>
-		<a href="duanmaoquanmaofashulifangfa.jsp"
-		>&nbsp&nbsp短毛犬毛发梳理方法：</a
-		>
-	</p>
-	<span>
-        &nbsp&nbsp短毛狗狗相比长毛狗狗，梳理毛发的次数要减少，但它们掉毛的程度可一点也不亚于长毛犬，有的掉毛比长毛犬还要厉害哦！所以定期的梳理非常必要。<br /><br /><br />
-      </span>
-</h3>
-
-<h4>
-	<img src="img/dog/长毛犬洗澡.jpg" width="18%" />
-	<p>
-		<a href="changmaoquanxizaofangfa.jsp">&nbsp&nbsp长毛犬洗澡方法：</a>
-	</p>
-	<span>
-        &nbsp&nbsp狗狗像人一样需要经常洗澡才能体现出英姿飒爽。对于长毛犬尤其重要，不然会散发出臭味异味，有损狗狗在人心目中美好可爱的形象以及狗狗的健康。<br />
-      </span>
-	<img src="img/dog/短毛犬洗澡.jpg" width="18%" />
-	<p><a href="duanmaoquanxizaofangfa.jsp">&nbsp&nbsp短毛犬洗澡方法：</a></p>
-	<span>
-        &nbsp&nbsp对于短毛狗狗来讲，洗澡可以洗去掉下来的浮毛，可以省去梳理浮毛和清理家居的工作。<br /><br /><br />
-      </span>
-</h4>
-
-<h5>
-	<p>
-		<a href="changmaoquanxiumaofangfa.jsp">&nbsp&nbsp长毛犬修毛方法：</a>
-	</p>
-	<img src="img/dog/面部修剪.jpg" width="18%" />
-	<span
-	>看着别人家的狗狗或是长发飘飘，或是精神抖擞，你是不是也心心念念的想要给狗狗来一个DIY发型呢？也使自己的狗狗更加漂亮惹人爱呢？
-      </span>
-</h5>
-<div class="footer">
-	<div class="f_ct">
-		<div class="f_ul ul_r">
-			<a href="firstpage.jsp"><h3>狗狗种类</h3></a>
-			<ul class="ul_w1">
-				<li><a href="kejiquan.jsp">柯基犬</a></li>
-				<li><a href="dubinquan.jsp">杜宾犬</a></li>
-				<li><a href="bomeiquan.jsp">博美犬</a></li>
-				<li><a href="jinmaoquan.jsp">金毛犬</a></li>
-			</ul>
-		</div>
-
-		<div class="f_ul ul_r">
-			<a href="gougourichnaghuli.jsp"><h3>狗狗日常护理</h3></a>
-			<ul class="ul_w2">
-				<li><a href="qidarichanghuli.jsp">七大日常护理</a></li>
-				<li><a href="changmaoquanxizaofangfa.jsp">长毛犬洗澡方法</a></li>
-				<li>
-					<a href="changmaoquanmafaxiulifangfa.jsp">长毛犬毛发梳理方法</a>
-				</li>
-				<li><a href="changmaoquanxiumaofangfa.jsp">长毛犬修毛方法</a></li>
-			</ul>
-		</div>
-
-		<div class="f_ul ul_r">
-			<a href="狗狗疾病救治"><h3>狗狗疾病救治</h3></a>
-			<ul class="ul_w3">
-				<li><a href="fuxie.jsp">腹泻</a></li>
-				<li><a href="ganmao.jsp">感冒</a></li>
-				<li><a href="pifubing.jsp">皮肤病</a></li>
-				<li><a href="changbianmi.jsp">肠便秘</a></li>
-			</ul>
-		</div>
-		<div class="f_ul ul_r">
-			<a href="狗狗趣闻"><h3>狗狗趣闻</h3></a>
-			<ul class="ul_w3">
-				<li><a href="lvai.jsp">狗狗救主人</a></li>
-				<li><a href="qinglvjiudian.jsp">狗狗情侣酒店</a></li>
-				<li><a href="huozhonghumao.jsp">火中护猫</a></li>
-				<li><a href="taiguohuangguan.jsp">属于狗狗的皇冠</a></li>
-			</ul>
-		</div>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+	<a class="navbar-brand" href="firstpage.jsp">DOGKEEP</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="gougourichnaghuli.jsp">狗狗日常护理</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="gougoujibingjiuzhi.jsp">狗狗疾病救治</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="gougourichangxunlian.jsp">狗狗日常训练</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="gougouquwen.jsp">狗狗趣闻</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="hudongshequ.jsp">互动社区</a>
+			</li>
+		</ul>
 	</div>
+</nav>
+<p style="text-align:center;">
+	<img src="img/dog/狗狗21.jpg" height="400px" width="900px" >
+</p>
+<h1 style="text-align:center;display: block;font-size: 2.5em;margin-block-start: 0.67em;font-weight: bold;margin-bottom: 30px;margin-inline-start: 0px;margin-inline-end: 0px;">让我们一起走进狗狗的护理世界！</h1>
+<div class="wrap chongwu_list">
+	<div class="list_item">
+		<a href="duanmaoxiaoxingquan.jsp" class="list_img"><img src="img/dogintroduction/柯基犬.jpg" alt="短毛小型犬的护理方法"></a>
+		<div>
+			<h3><a href="duanmaoxiaoxingquan.jsp">短毛小型犬的护理方法</a></h3>
+			<p class="cnt">
+				眼部护理<br>
+				短毛小型犬眼部没有毛发的遮挡，眼部容易受伤，所以坚持每天用湿布擦洗面部，...
+			</p>
+		</div>
+		<p class="view">
+			<a href="duanmaoxiaoxingquan.jsp"><span class="f_right">更多>></span></a>
+		</p>
+	</div><div class="list_item">
+	<a href="duanmaodaxingquan.jsp" class="list_img"><img src="img/dogintroduction/杜宾犬.jpg" alt="短毛大型犬的护理方法"></a>
+	<div>
+		<h3><a href="duanmaodaxingquan.jsp">短毛大型犬的护理方法</a></h3>
+		<p class="cnt">
+			牙齿护理<br>
+			大型犬平时可以啃点儿大骨头，既能磨练牙齿，还能补钙。不要随意给狗狗喂食...
+		</p>
+	</div>
+	<p class="view">
+		<a href="duanmaodaxingquan.jsp"><span class="f_right">更多>></span></a>
+	</p>
+</div><div class="list_item">
+	<a href="changmaoxiaoxingquan.jsp" class="list_img"><img src="img/dogintroduction/博美犬.jpg" alt="长毛小型犬的护理方法"></a>
+	<div>
+		<h3><a href="changmaoxiaoxingquan.jsp">长毛小型犬的护理方法</a></h3>
+		<p class="cnt">
+			耳道护理<br>
+			狗狗的耳朵会慢慢分泌污物，这些从耳朵分泌出来的污物也比较坚固，清洁时...
 
-	<p style="height: 58px; line-height: 26px; padding: 16px 0 0;">
-		<a href="http://www.12377.cn/" target="_blank">中国互联网举报中心</a>
-		举报邮箱：1945237885@qq.com 违法和不良信息举报电话：12377<br />
+		</p>
+	</div>
+	<p class="view">
+		<a href="changmaoxiaoxingquan.jsp"><span class="f_right">更多>></span></a>
+	</p>
+</div><div class="list_item">
+	<a href="changmaodaxingquan.jsp" class="list_img"><img src="img/dogintroduction/金毛犬.jpg" alt="长毛大型犬的护理方法"></a>
+	<div>
+		<h3><a href="changmaodaxingquan.jsp" >长毛大型犬的护理方法</a></h3>
+		<p class="cnt">
+			指甲护理<br>
+			由于大型犬经常在粗糙的地面上运动，能自动磨平长出的指甲。但是我们也要...
+		</p>
+	</div>
+	<p class="view">
+		<a href="changmaodaxingquan.jsp"><span class="f_right">更多>></span></a>
 	</p>
 </div>
+</div>
+<div class="i_t mar_10">
+</div>
+<p style="height: 58px;line-height: 26px; padding: 16px 0 0;text-align: center"><a href="http://www.12377.cn/" target="_blank">中国互联网举报中心</a> 举报邮箱：7-8-382168@qq.com 违法和不良信息举报电话：12377<br>Copyrights  2020 狗狗护理  All rights reserved.</p>
 </body>
 </html>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>感冒</title>
+    <title>胃肠炎</title>
     <link type="text/css" rel="stylesheet" href="css/gougoujibingjiuzhi.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
@@ -41,17 +41,19 @@
 </nav>
 
 <p style="margin-top: 100px;margin-left: 100px;width: 170px;height: 130px;font-size: 30px;text-align: center;" >
-    <img src="img/dog/感冒.jpg" align="left" style="border-radius: 50%;box-shadow: 2px 4px 4px;width: 170px;height: 130px;margin-bottom: 10px" />
-    感冒
+    <img src="img/dog/胃肠炎.jpg" align="left" style="border-radius: 50%;box-shadow: 2px 4px 4px;width: 170px;height: 130px;margin-bottom: 10px" />
+    胃肠炎
 </p><br><br><br>
 
 <span>
-<iframe height=400 width=800 src='https://v.qq.com/txp/iframe/player.html?vid=n09030usdme' frameborder=0 allowfullscreen style="margin-left: 200px"></iframe>
+<iframe height=400 width=800 src="https://v.qq.com/txp/iframe/player.html?vid=q0631tioaer" frameborder=0 allowfullscreen style="margin-left: 200px"></iframe>
 </span>
-<p style="width: 800px;margin-left: 200px;font-size: 15px;margin-bottom: 50px;margin-top: 30px">
-    &nbsp&nbsp症状：精神不好，打蔫，喜欢趴着;有流水样的鼻涕，打喷嚏和咳嗽;眼结膜充血，流泪，食欲不振;体温升高，一般为39-40℃。<br>
-    &nbsp&nbsp原因：受凉，多见于洗澡后，天气变化，长期吹空调;病毒感染;被传染感冒病毒。<br>
-    &nbsp&nbsp基本处理原则：抗病毒滴剂、紫雏菊花粉、免疫多糖膏、抗病毒冲剂、板蓝根;促进血液循环，保暖，热敷肚子。若不见好转，及时就医。</p>
+<p style="width: 800px;margin-left: 200px;font-size: 18px;margin-bottom: 50px;margin-top: 30px;font-family: SimSun">
+    症状：呕吐、腹泻、食欲不振以及精神沉郁为主。<br>
+    原因：首先考虑食物刺激，比如暴饮暴食、不科学的换粮等；其次考虑细菌性感染，比如误食被污染的食物。<br>
+    基本处理原则：禁食24小时，限制饮水，然后喂给少量易消化的肉汤、菜汤、米粥、热牛奶或少量的瘦肉等。<br>
+    药物治疗：方法1:一天两次阿莫西林两片+口服硫酸庆大霉素针剂一支。<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp方法2:氟派酸+土霉素，一天两次，并加服硫酸庆大霉素针剂一支。</p>
 </body>
 
 </html>

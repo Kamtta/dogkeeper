@@ -18,8 +18,8 @@ public class ParaUtil {
             e.printStackTrace();
         }
     }
-    public static final String DRIVER = properties.getProperty("driver");
-    public static final String URL = properties.getProperty("url");
-    public static final String USERNAME = properties.getProperty("username");
-    public static final String PASSWORD = properties.getProperty("password");
+    public static final String DRIVER = properties.getProperty("jdbc.driver");
+    public static final String URL = properties.getProperty("jdbc.url");
+    public static final String USERNAME = properties.getProperty("jdbc.username");
+    public static final String PASSWORD = properties.getProperty("jdbc.password");
 }

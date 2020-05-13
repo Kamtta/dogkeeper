@@ -1,11 +1,10 @@
 package com.tjcu.addcontroller;
 
 import com.tjcu.addcommon.ResultMessage;
+import com.tjcu.addobj.TypeDetailReqDTO;
 import com.tjcu.addservice.DetailContentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 内容详情Controller
@@ -22,6 +21,16 @@ public class DetailContentController {
     @GetMapping(value = "get")
     public ResultMessage test(){
         return detailContentService.get();
+    }
+
+    /**
+     * 保存
+     * @param typeDetailReqDTO
+     * @return
+     */
+    @PostMapping(value = "saveDetail")
+    public ResultMessage saveDetail(@RequestBody TypeDetailReqDTO typeDetailReqDTO) {
+        return detailContentService.saveDetail(typeDetailReqDTO);
     }
 
 

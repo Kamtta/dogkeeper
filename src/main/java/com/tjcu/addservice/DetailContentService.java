@@ -11,4 +11,8 @@ public interface DetailContentService {
     ResultMessage get();
 
     ResultMessage saveDetail(TypeDetailReqDTO typeDetailReqDTO);
+
+    ResultMessage getTypeList(Integer typeId);
+
+    ResultMessage getContentList(Integer typeId);
 }

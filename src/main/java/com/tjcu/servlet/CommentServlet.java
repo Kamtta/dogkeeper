@@ -121,4 +121,27 @@ public class CommentServlet extends HttpServlet {
         String json = objectMapper.writeValueAsString(page);
         resp.getWriter().write(json);
     }
+
+    public void delete(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        String commentid = req.getParameter("commentid");
+        userCommentDao.delete(Integer.valueOf(commentid));
+    }
+
+    public void commentall(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        String n = req.getParameter("n");
+        int pagen = -1;
+        if(n == null){
+            pagen = 1;
+        }else {
+            pagen = Integer.parseInt(n);
+        }
+        Page page = new Page();
+        page.setCount(userCommentDao.sumCount(1));
+        page.setCurrentPage(pagen);
+        page.setContent(userCommentDao.findAnswerContentAll(1,(pagen-1)*page.getPageCount(),page.getPageCount()));
+//        使用json进行传输数据
+        ObjectMapper objectMapper = new ObjectMapper();
+        String json = objectMapper.writeValueAsString(page);
+        resp.getWriter().write(json);
+    }
 }

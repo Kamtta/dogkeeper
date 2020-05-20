@@ -95,4 +95,34 @@ public class UserCommentDaoImpl implements UserCommentDao {
         },relatedcomment);
         return String.valueOf(objects.get(0));
     }
+
+    @Override
+    public List findAnswerContentAll(int i, int offset, int num) {
+        String sql = "select * from usercomment where commentrole = ? limit ?,?";
+        List<Object> objects = UpdateQuery.query(sql, new ResultObject() {
+            @Override
+            public Object getByResultSet(ResultSet resultSet) throws SQLException {
+                UserComment userComment = new UserComment();
+                userComment.setUid(resultSet.getInt("uid"));
+                userComment.setCommentid(resultSet.getInt("commentid"));
+                userComment.setContent(resultSet.getString("content"));
+                userComment.setUname(resultSet.getString("uname"));
+                return userComment;
+            }
+        },i,offset,num);
+        List<UserComment> result = new ArrayList<>();
+        for (int j = 0;j < objects.size();j++) {
+            result.add((UserComment)objects.get(j));
+        }
+        return result;
+    }
+
+    @Override
+    public int delete(int commentid) {
+        String deleteSql = "delete from usercomment where commentid = ?";
+        int i = UpdateQuery.update(deleteSql,commentid);
+        return i;
+    }
+
+
 }

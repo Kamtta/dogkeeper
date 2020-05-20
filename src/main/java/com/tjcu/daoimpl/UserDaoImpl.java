@@ -12,7 +12,7 @@ import java.util.List;
 public class UserDaoImpl implements UserDao {
     @Override
     public int sumCount(int rlevel) {
-        String sql = "select count(*) from usertable where rlevel = ?";
+        String sql = "select count(*) from keepuser where role = ?";
         List<Object> objects = UpdateQuery.query(sql, new ResultObject() {
             @Override
             public Object getByResultSet(ResultSet resultSet) throws SQLException {
@@ -24,7 +24,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public List findContent(int rlevel, int offset, int num) {
-        String sql = "select * from usertable where ifdelete = 0 and rlevel = ? limit ?,?";
+        String sql = "select * from keepuser where ifdelete = 0 and role = ? limit ?,?";
         List<Object> objects = UpdateQuery.query(sql, new ResultObject() {
             @Override
             public Object getByResultSet(ResultSet resultSet) throws SQLException {
@@ -33,6 +33,8 @@ public class UserDaoImpl implements UserDao {
                 user.setUname(resultSet.getString("uname"));
                 user.setUpwd(resultSet.getString("upwd"));
                 user.setUsex(resultSet.getInt("usex"));
+                user.setPhone(resultSet.getString("phone"));
+                user.setEmail(resultSet.getString("email"));
                 return user;
             }
         },rlevel,offset,num);
@@ -66,7 +68,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public List<User> selectByUname(String uname, int rlevel) {
-        String sql = "select * from usertable where ifdelete =  0 and uname like ? and rlevel = ?";
+        String sql = "select * from keepuser where ifdelete =  0 and uname like ? and role = ?";
         List<Object> result = UpdateQuery.query(sql, new ResultObject() {
             @Override
             public Object getByResultSet(ResultSet resultSet) throws SQLException {
@@ -75,6 +77,8 @@ public class UserDaoImpl implements UserDao {
                 user.setUname(resultSet.getString("uname"));
                 user.setUpwd(resultSet.getString("upwd"));
                 user.setUsex(resultSet.getInt("usex"));
+                user.setEmail(resultSet.getString("email"));
+                user.setPhone(resultSet.getString("phone"));
                 return user;
             }
         }, "%" + uname + "%", rlevel);
@@ -90,7 +94,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User selectByName(String uname) {
-        String sql = "select * from keepuser where uname like ?";
+        String sql = "select * from keepuser where uname like ? and ifdelete = 0";
         List<Object> objectList = UpdateQuery.query(sql, new ResultObject() {
             @Override
             public Object getByResultSet(ResultSet resultSet) throws SQLException {
@@ -99,6 +103,9 @@ public class UserDaoImpl implements UserDao {
                 user.setUname(resultSet.getString("uname"));
                 user.setUpwd(resultSet.getString("upwd"));
                 user.setUsex(resultSet.getInt("usex"));
+                user.setRole(resultSet.getInt("role"));
+                user.setEmail(resultSet.getString("email"));
+                user.setPhone(resultSet.getString("phone"));
                 return user;
             }
         },"%"+uname+"%");
@@ -118,15 +125,15 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public int deleteAdmin(String uname) {
-        String sql = "update usertable set ifdelete = 1 where uname = ?";
+        String sql = "update keepuser set ifdelete = 1 where uname = ?";
         int i = UpdateQuery.update(sql,uname);
         return i;
     }
 
     @Override
     public int updateAdmin(User user) {
-        String sql = "update usertable set upwd = ?,usex = ?,ubirthday = ?,receiver = ?,raddress = ?,rtelephone = ?,rlevel = ?,raids =? where uname = ?";
-        int i = UpdateQuery.update(sql,user.getUpwd(),user.getUsex());
+        String sql = "update keepuser set upwd = ?,usex = ?,phone = ?,email = ? where uname = ?";
+        int i = UpdateQuery.update(sql,user.getUpwd(),user.getUsex(),user.getPhone(),user.getEmail(),user.getUname());
         return i;
     }
 

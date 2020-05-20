@@ -20,4 +20,8 @@ public interface UserCommentDao {
     List findAnswerContent(int commentrole, int relatedcomment,int offset, int num);
 //    根据问题主键查找问题内容
     String findContentById(int relatedcomment);
+
+    List findAnswerContentAll(int i, int offset, int num);
+//    删除
+    int delete(int commentid);
 }

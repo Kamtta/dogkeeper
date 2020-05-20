@@ -75,21 +75,18 @@
     border: none;
 }
 .foot{
-    width: 1200px;
+    width:auto;
     height: 30px;
     text-align: center;
-    background-color: green;
-    color: white;
+    background-color: white;
+    border-top: solid darkgreen 1px;
+    color: darkgreen;
     font-size: 15px;
-    position: fixed;
-    bottom: 0;
-    left: 350px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
 }
 .foot p{
     padding: 0;
-    margin: 7px auto;
+    margin: 0;
     justify-content: center;
 }
 .back{

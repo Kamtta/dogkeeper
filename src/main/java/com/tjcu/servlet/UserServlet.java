@@ -41,9 +41,9 @@ public class UserServlet extends HttpServlet {
             pagen = Integer.parseInt(n);
         }
         Page page = new Page();
-        page.setCount(userDao.sumCount(1));
+        page.setCount(userDao.sumCount(0));
         page.setCurrentPage(pagen);
-        page.setContent(userDao.findContent(1,(pagen-1)*page.getPageCount(),page.getPageCount()));
+        page.setContent(userDao.findContent(0,(pagen-1)*page.getPageCount(),page.getPageCount()));
 //        使用json进行传输数据
         ObjectMapper objectMapper = new ObjectMapper();
         String json = objectMapper.writeValueAsString(page);
@@ -51,9 +51,13 @@ public class UserServlet extends HttpServlet {
     }
     public void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException, ParseException {
         String uname = req.getParameter("uname");
-        List<User> list = userDao.selectByUname(uname,1);
+        String email = req.getParameter("email");
+        String phone = req.getParameter("phone");
+        List<User> list = userDao.selectByUname(uname,0);
         User user = list.get(0);
         user.setUpwd(req.getParameter("upwd"));
+        user.setPhone(phone);
+        user.setEmail(email);
         userDao.updateAdmin(user);
     }
     public void register(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException, ParseException {
@@ -84,7 +88,12 @@ public class UserServlet extends HttpServlet {
             if(user.getUpwd().equals(password)){
                 HttpSession session = req.getSession();
                 session.setAttribute("user",user);
-                resp.sendRedirect("firstpage.jsp");
+//                普通用户
+                if(user.getRole() == 0){
+                    resp.sendRedirect("firstpage.jsp");
+                }else{
+                    resp.sendRedirect("main.jsp");
+                }
             }else{
                 req.getRequestDispatcher("index.jsp").forward(req,resp);
             }
@@ -96,5 +105,18 @@ public class UserServlet extends HttpServlet {
         ObjectMapper objectMapper = new ObjectMapper();
         String json = objectMapper.writeValueAsString(list);
         resp.getWriter().write(json);
+    }
+
+    public void select(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String uname = req.getParameter("uname");
+        User user = userDao.selectByName(uname);
+        ObjectMapper objectMapper = new ObjectMapper();
+        String json = objectMapper.writeValueAsString(user);
+        resp.getWriter().write(json);
+    }
+
+    public void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String uname = req.getParameter("uname");
+        userDao.deleteAdmin(uname);
     }
 }

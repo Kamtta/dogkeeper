@@ -11,7 +11,10 @@ public class User {
     private String email;
     private String phone;
     private Integer role;
+
+
     private Date update_time;
+    private Integer ifdelete;
 
     public Integer getUid() {
         return uid;
@@ -53,6 +56,7 @@ public class User {
                 ", phone='" + phone + '\'' +
                 ", role=" + role +
                 ", update_time=" + update_time +
+                ", ifdelete=" + ifdelete +
                 '}';
     }
 
@@ -101,5 +105,12 @@ public class User {
     }
 
 
+    public Integer getIfdelete() {
+        return ifdelete;
+    }
+
+    public void setIfdelete(Integer ifdelete) {
+        this.ifdelete = ifdelete;
+    }
 
 }

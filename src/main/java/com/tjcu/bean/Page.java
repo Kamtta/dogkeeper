@@ -7,7 +7,7 @@ public class Page {
      * 实现分页功能
      */
     private Integer count;  //总数
-    private Integer pageCount = 4;  //一页中显示数据的条数
+    private Integer pageCount = 6;  //一页中显示数据的条数
     private Integer pageNum; //页数
     private Integer currentPage;//当前的页数
     private List content;//当前页面显示的数据

@@ -28,8 +28,10 @@
                     <a href="user.jsp" class="list-group-item list-group-item-action" target="content">用户管理</a>
                     <a href="#" class="list-group-item list-group-item-action" target="content">新闻资讯管理</a>
                     <a href="hudongshequmanage.jsp" class="list-group-item list-group-item-action" target="content">互动社区管理</a>
-                    <a href="#" class="list-group-item list-group-item-action" target="content">Third item</a>
-                    <a href="#" class="list-group-item list-group-item-action" target="content">Third item</a>
+                    <a href="dogcaremanage.jsp" class="list-group-item list-group-item-action" target="content">狗狗护理管理</a>
+                    <a href="dogsickmanage.jsp" class="list-group-item list-group-item-action" target="content">狗狗疾病救治</a>
+                    <a href="dogexercisemanage.jsp" class="list-group-item list-group-item-action" target="content">狗狗日常训练</a>
+                    <a href="dogfunmanage.jsp" class="list-group-item list-group-item-action" target="content">狗狗趣闻管理</a>
                 </div>
 
             </div>

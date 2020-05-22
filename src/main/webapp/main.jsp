@@ -45,7 +45,7 @@
         </div>
     </div>
 <div class="foot" >
-    <p>@CopyRight; 张玉衫制作，公司：天津商业大学
+    <p>@CopyRight; 张钰杉制作，公司：天津商业大学
         电话：15327627822</p>
 </div>
 </body>

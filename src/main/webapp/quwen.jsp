@@ -46,7 +46,7 @@
 </nav>
 <div class="row bg-light" style="margin-top: 55px;height: 100%">
     <div class="col-2"></div>
-    <div class="col-8" style="border: 1px gray solid;height: auto;border-bottom: none;border-top: none">
+    <div class="col-8" style="border: 1px gray solid;height: auto;border-bottom: none;border-top: none" id="data-content">
         <h1 style="text-align:left;display: block;font-size: 2.5em;margin-block-start: 0.67em;font-weight: bold;margin-bottom: 30px;margin-inline-start: 0px;margin-inline-end: 0px;margin-left: 80px">疫情之下，如何给狗狗做好防护？</h1>
         <img src="img/quwen/1.jpg" height="350px" width="650px" style="margin-left: 80px">
         <div style="margin-left: 80px;width: 650px;font-size: 18px;margin-top: 15px;font-family: SimSun">
@@ -121,5 +121,52 @@
     </div>
     <div class="col-2"></div>
 </div>
+
+<script>
+    $(function () {
+        fun(1)
+    })
+    function pre() {
+        var n = $("input[name='current']").val();
+        if(n == 1){
+            fun(1)
+        }else{
+            fun(n-1)
+        }
+    }
+    function next() {
+        var n = $("input[name='current']").val();
+        var pagenum = $("input[name='pageNum']").val();
+        if(n == pagenum){
+            fun(n);
+        }else{
+            fun(parseInt(n)+1)
+        }
+    }
+    function fun(n){
+        $.ajax({
+            url:"selectall.content",
+            data:{"n":n,"id":<%=request.getParameter("id")%>},
+            dataType:"json",
+            success:function (result) {
+                var str = "";
+                $(result.content).each(function () {
+                    str += "<h1 style=\"text-align:left;display: block;font-size: 2.5em;margin-block-start: 0.67em;font-weight: bold;margin-bottom: 30px;margin-inline-start: 0px;margin-inline-end: 0px;margin-left: 80px\">"+this.title+"</h1>\n" +
+                        "        <img src='onload/"+this.photopath+"' height=\"350px\" width=\"650px\" style=\"margin-left: 80px\">\n" +
+                        "        <div style=\"margin-left: 80px;width: 650px;font-size: 18px;margin-top: 15px;font-family: SimSun\">\n" +
+                        this.content +
+                        "        </div>"
+                })
+                str += "<p style=\"text-align: right;bottom: 50px;right: 100px\">\n" +
+                    "    <button type=\"button\" class=\"btn btn-success\" onclick=\"pre()\">上一页</button>&nbsp&nbsp&nbsp&nbsp\n" +
+                    "    <button type=\"button\" class=\"btn btn-success\" onclick=\"next()\">下一页</button>\n" +
+                    "</p>"
+                $("#data-content").html(str);
+                $("input[name='current']").val(result.currentPage)
+                $("input[name='pageNum']").val(result.pageNum)
+            }
+        })
+    }
+</script>
 </body>
 </html>

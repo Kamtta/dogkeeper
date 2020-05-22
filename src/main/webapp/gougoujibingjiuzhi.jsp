@@ -44,9 +44,7 @@
  </p>
  <h1 style="text-align:center;display: block;font-size: 2.5em;margin-block-start: 0.67em;font-weight: bold;margin-bottom: 30px;margin-inline-start: 0px;margin-inline-end: 0px;">让我们一同呵护照顾我们的狗狗！</h1>
 
- <div class="wrap chongwu_list">
-
-
+ <div class="wrap chongwu_list" id="data-content">
 	 <div class="list_item">
 		 <a href="fuxie.jsp" class="list_img"><img src="img/dog/腹泻.jpg" alt="腹泻的救治方法"></a>
 		 <div>
@@ -128,6 +126,60 @@
  <div class="i_t mar_10">
  </div>
  <p style="height: 58px;line-height: 26px; padding: 16px 0 0;text-align: center"><a href="http://www.12377.cn/" target="_blank">中国互联网举报中心</a> 举报邮箱：7-8-382168@qq.com 违法和不良信息举报电话：12377<br>Copyrights  2020 狗狗护理  All rights reserved.</p>
-
+ <input type="hidden" name="current">
+ <input type="hidden" name="pageNum">
+ <script>
+	 $(function () {
+		 fun(1)
+	 })
+	 function pre() {
+		 var n = $("input[name='current']").val();
+		 if(n == 1){
+			 fun(1)
+		 }else{
+			 fun(n-1)
+		 }
+	 }
+	 function next() {
+		 var n = $("input[name='current']").val();
+		 var pagenum = $("input[name='pageNum']").val();
+		 if(n == pagenum){
+			 fun(n);
+		 }else{
+			 fun(parseInt(n)+1)
+		 }
+	 }
+	 function fun(n){
+		 $.ajax({
+			 url:"select.type",
+			 data:{"n":n,"typerole":1},
+			 dataType:"json",
+			 success:function (result) {
+				 var str = "";
+				 $(result.content).each(function () {
+					 str += "<div class=\"list_item\">\n" +
+							 "\t\t<a href=\"jibing.jsp?photopath="+this.photopath+"&id="+this.id+"&title="+this.typeTitle+"\" class=\"list_img\"><img src='onload/"+this.photopath+"'></a>\n" +
+							 "\t\t<div>\n" +
+							 "\t\t\t<h3><a href=\"jibing.jsp?photopath="+this.photopath+"&id="+this.id+"&title="+this.typeTitle+"\">"+this.typeTitle+"</a></h3>\n" +
+							 "\t\t\t<p class=\"cnt\">\n" +
+							 this.contentTitle +
+							 "\t\t\t</p>\n" +
+							 "\t\t</div>\n" +
+							 "\t\t<p class=\"view\">\n" +
+							 "\t\t\t<a href=\"jibing.jsp?photopath="+this.photopath+"&id="+this.id+"&title="+this.typeTitle+"\"><span class=\"f_right\">更多>></span></a>\n" +
+							 "\t\t</p>\n" +
+							 "\t</div>"
+				 })
+				 str += "<p style=\"text-align: right;bottom: 50px;right: 100px\">\n" +
+						 "    <button type=\"button\" class=\"btn btn-success\" onclick=\"pre()\">上一页</button>&nbsp&nbsp&nbsp&nbsp\n" +
+						 "    <button type=\"button\" class=\"btn btn-success\" onclick=\"next()\">下一页</button>\n" +
+						 "</p>"
+				 $("#data-content").html(str);
+				 $("input[name='current']").val(result.currentPage)
+				 $("input[name='pageNum']").val(result.pageNum)
+			 }
+		 })
+	 }
+ </script>
  </body>
 </html>

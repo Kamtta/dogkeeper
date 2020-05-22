@@ -131,15 +131,15 @@
 				var str = "";
 				$(result.content).each(function () {
 					str += "<div class=\"list_item\">\n" +
-							"\t\t<a href=\"quan.jsp?photopath="+this.photopath+"&id="+this.id+"\" class=\"list_img\"><img src='onload/"+this.photopath+"' alt=\"长毛小型犬的护理方法\"></a>\n" +
+							"\t\t<a href=\"quan.jsp?photopath="+this.photopath+"&id="+this.id+"&title="+this.typeTitle+"\" class=\"list_img\"><img src='onload/"+this.photopath+"' alt=\"长毛小型犬的护理方法\"></a>\n" +
 							"\t\t<div>\n" +
-							"\t\t\t<h3><a href=\"quan.jsp?photopath="+this.photopath+"&id="+this.id+"\">"+this.typeTitle+"</a></h3>\n" +
+							"\t\t\t<h3><a href=\"quan.jsp?photopath="+this.photopath+"&id="+this.id+"&title="+this.typeTitle+"\">"+this.typeTitle+"</a></h3>\n" +
 							"\t\t\t<p class=\"cnt\">\n" +
 							this.contentTitle +
 							"\t\t\t</p>\n" +
 							"\t\t</div>\n" +
 							"\t\t<p class=\"view\">\n" +
-							"\t\t\t<a href=\"quan.jsp?photopath="+this.photopath+"&id="+this.id+"\"><span class=\"f_right\">更多>></span></a>\n" +
+							"\t\t\t<a href=\"quan.jsp?photopath="+this.photopath+"&id="+this.id+"&title="+this.typeTitle+"\"><span class=\"f_right\">更多>></span></a>\n" +
 							"\t\t</p>\n" +
 							"\t</div>"
 				})

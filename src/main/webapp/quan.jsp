@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.tjcu.commons.CareTypeEnum" %><%--
   Created by IntelliJ IDEA.
   User: Administrator
   Date: 2020/5/12
@@ -45,7 +45,7 @@
 
 <p style="margin-top: 100px;margin-left: 100px;width: 170px;height: 130px;font-size: 30px;text-align: center;" >
     <img src="onload/<%=request.getParameter("photopath")%>" align="left" style="border-radius: 50%;box-shadow: 2px 4px 4px;width: 170px;height: 130px;margin-bottom: 10px" />
-    短毛大型犬
+    <%=request.getParameter("title")%>
 </p><br><br><br>
 <div class="container">
     <table class="table table-hover">
@@ -55,8 +55,8 @@
             <th>护理方法</th>
         </tr>
         </thead>
-        <tbody>
-        <tr >
+        <tbody id="data-content">
+        <tr>
             <td>眼部护理</td>
             <td>&nbsp&nbsp长时间不清理，狗狗的眼睛也会变得脏脏的，情况严重的话，会影响 狗狗正常的视力和眼睛健康，诱发结膜炎等疾病的情况。<br>
                 &nbsp&nbsp对其眼部最好能进行针对性的护理。如使用2%硼酸棉球由眼内角向外轻轻擦拭，不能在眼睛上来回擦拭，一个棉球不够，可再换一个，直到将眼睛擦洗干净为止。</td>
@@ -90,5 +90,25 @@
         </tbody>
     </table>
 </div>
+
+<script>
+    $(function (){
+        $.ajax({
+            url:"select.content",
+            data:{"id":<%=request.getParameter("id")%>},
+            dataType:"json",
+            success:function (result) {
+                var str = "";
+                $(result).each(function () {
+                    str += "<tr>\n" +
+                        "            <td>"+this.updateId+"</td>\n" +
+                        "            <td>"+this.content+"</td>\n" +
+                        "        </tr>"
+                })
+                $("#data-content").html(str);
+            }
+        })
+    })
+</script>
 </body>
 </html>

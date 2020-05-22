@@ -15,5 +15,5 @@ public interface NewsDao {
 
     News selectbyid(String id);
 
-    void updatebyid(String id);
+    void updatebyid(String id,News news);
 }

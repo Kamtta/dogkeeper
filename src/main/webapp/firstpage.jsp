@@ -99,7 +99,7 @@
     <div class="col-3">
         <div class="inews" style="margin-top: 20px;margin-right: 15px;height: 350px">
             <div class="news_t">
-                <span class="fr">更多</span>新闻资讯
+                <span class="fr"><a href="newsmore.jsp">更多</a></span>新闻资讯
             </div>
             <ul>
                 <li><span><a href="feiqiu.jsp">[ 飞球比赛] </a></span>看看哪家狗狗更厉害</li>

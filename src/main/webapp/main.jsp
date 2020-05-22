@@ -39,7 +39,7 @@
         <div class="col-10" style="width: 100%;padding: 0;">
 
             <div id="ifr-style" style="padding: 0px;margin: 0px;width: 100%">
-                <iframe name="content" class="framestyle" src=""></iframe>
+                <iframe name="content" class="framestyle" src="user.jsp"></iframe>
             </div>
 
         </div>

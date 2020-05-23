@@ -92,7 +92,7 @@ public class DetailContentServlet  extends HttpServlet {
         List<String> params = new ArrayList<>();
         String content = req.getParameter("content");
         //        获取servlet服务器的路径
-        String servletPath = req.getServletContext().getRealPath("/")+"onload\\";
+        String servletPath = req.getServletContext().getRealPath("/")+"onload";
 //        获取图片对象
         Part part = req.getPart("photopath");
         String path = ImgUtil.imgControl(part,servletPath);

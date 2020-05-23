@@ -35,7 +35,7 @@ public class TypeDetailServlet extends HttpServlet {
 
     public void add(HttpServletRequest req, HttpServletResponse resp)throws ServletException, IOException{
         //        获取servlet服务器的路径
-        String servletPath = req.getServletContext().getRealPath("/")+"onload\\";
+        String servletPath = req.getServletContext().getRealPath("/")+"onload";
 //        获取图片对象
         Part part = req.getPart("photopath");
         String path = ImgUtil.imgControl(part,servletPath);

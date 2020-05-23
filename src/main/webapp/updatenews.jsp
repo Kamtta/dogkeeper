@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="shortcut icon" type="/image/x-icon" href="../../favicon.ico" media="screen" />
-    <link type="text/css" rel="stylesheet" href="/css/bootstrap.css"/>
-    <link rel="stylesheet" href="/css/font-awesome.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" language="JavaScript" src="/js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" language="JavaScript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <title>更新</title>
 </head>
 <body>
